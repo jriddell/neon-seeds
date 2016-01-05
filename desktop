@@ -1,0 +1,185 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Kubuntu desktop
+Task-Extended-Description: The Kubuntu environment using KDE Plasma Desktop
+Task-Key: kubuntu-desktop
+Task-Seeds: desktop-common
+
+= Hardware and Architecture Support =
+
+== Architecture-independent ==
+
+ * pm-utils
+
+Bluetooth:
+
+ * (pulseaudio-module-bluetooth) # Bluetooth audio devices by default
+
+= Network Services =
+
+Basic network services and Windows integration.
+
+ * (avahi-autoipd)     # IPv4 link-local interface configuration support
+ * (mobile-broadband-provider-info)
+
+= GUI infrastructure =
+
+Extra fonts (should be common, but not so for space reasons):
+
+ * (fonts-droid)
+ * (fonts-nanum)
+ * (fonts-liberation)
+ * (fonts-oxygen)
+
+Input methods:
+
+ * (im-config)
+ * (ibus-qt4)  # ibus support
+
+== Phonon and Frameworks ==
+
+ * (pulseaudio)
+ * (phonon-backend-gstreamer) # upstream recommends vlc but also says vlc is flakey and gstreamer fits better with the rest of ubuntu
+ * (phonon4qt5-backend-gstreamer)
+ * (gstreamer1.0-pulseaudio)
+ * (gstreamer-qapt)
+ * (frameworkintegration)
+ * (kimageformat-plugins)
+ * (qt5-image-formats-plugins)
+
+== Plasma ==
+
+ * baloo-kf5
+ * breeze
+ * kde-cli-tools
+ * khelpcenter
+ * khotkeys
+ * kinfocenter
+ * kio
+ * kio-extras
+ * kmenuedit
+ * ksysguard
+ * kwin
+ * kwrited
+ * oxygen-sounds
+ * plasma-desktop
+ * powerdevil
+ * systemsettings
+ * (plasma-widgets-addons)
+ * (kde-config-gtk-style) #GTK setup
+ * (kde-config-gtk-style-preview) # brings in the gtk libraries
+ * (muon-discover) # in testing for saucy
+ * (muon-notifier)
+ * (polkit-kde-agent-1) # needed by muon but is an option compared to gtk polkit for gnome users
+ * (ksshaskpass)
+ * (bluedevil)
+ * (kwin-addons)
+ * (plasma-widgets-addons)
+ * (plasma-dataengines-addons)
+ * (plasma-runners-addons)
+ * (plasma-wallpapers-addons)
+ * (plasma-widget-kimpanel)
+ * (kscreen)
+ * (milou)
+ * (plasma-nm)
+ * (kde-config-sddm)
+ * (user-manager)
+ * (plasma-pa)
+
+== KDE Applications ==
+
+ * (konsole)
+ * (gwenview)
+ * (krdc)
+ * ark
+ * (kwalletmanager)
+ * (kcalc)
+ * dolphin
+ * (ksystemlog)
+ * (akregator)
+ * (kaddressbook)
+ * (kdepim-runtime)
+# * (kleopatra)  # Also does general gpg key management stuff [needs dirmngr MIR]
+ * (kmail)
+ * (knotes)
+ * (kontact)
+ * (korganizer)
+# * (ktimetracker) # Disabled temporarily till we figure out what's wrong with the package
+ * ksnapshot
+ * okular
+ * (kdegraphics-strigi-analyzer)
+ * (okular-extra-backends)
+ * (dragonplayer)
+ * (kdenetwork-filesharing)
+ * (kate)
+ * (print-manager)
+
+== Other KDE Software ==
+
+ * (baloo-utils) # kdelibs4 kioslaves
+ * (kde-telepathy)
+ * software-properties-kde
+ * (apport-kde)
+ * (kubuntu-driver-manager)
+ * (kubuntu-settings-desktop)
+ * (kubuntu-notification-helper)
+ * (qapt-deb-installer)
+ * (oxygen-icon-theme)
+ * (apturl-kde)
+ * (partitionmanager)
+ * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
+ * (kde-config-whoopsie)
+ * (pam-kwallet4) # Needs to be seeded as otherwise kwallet4 using apps will need user unlocking.
+ * (pam-kwallet5)
+ * (gtk2-engines-oxygen)
+ * (gtk3-engines-oxygen)
+ * (k3b)
+ * (konversation)
+ * (amarok)
+ * (kubuntu-web-shortcuts)
+ * (ktorrent)
+ * (pinentry-qt4) # for SMIME e-mail support
+ * (gnupg-agent) # for SMIME e-mail support
+ * (gpgsm) # SMIME engine
+ * (skanlite)
+ * (kde-config-tablet)
+ * (about-distro)
+# * (usb-creator-kde) [i386 amd64] # disabled cos it's broken
+ * (kio-mtp)
+ * (kdeconnect-plasma)
+
+Documentation:
+
+# * (kubuntu-docs)
+
+= Other =
+
+ * (plymouth-theme-kubuntu-text)
+ * (plymouth-theme-kubuntu-logo)
+ * (cryptsetup) #needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
+
+= Other Desktop GUI Apps =
+
+ * (libreoffice-style-oxygen) [i386 amd64] # to avoid openoffice.org-style-human
+ * (libreoffice-kde) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-writer) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-calc) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-impress) [i386 amd64] # powerpc oversized, armel broken
+ * (libreoffice-base) [i386 amd64] # powerpc oversized, armel broken
+ * (firefox) # Because it is a cool and secure browser.
+
+== supporting bits ==
+
+ * (upower)
+ * (udisks2)
+ * (xdg-utils)         # useful utilities
+ * (cdrdao)
+ * (libqca2-plugin-ossl)
+ * xdg-user-dirs
+ * sddm-theme-breeze
+
+== Blacklist ==
+
+libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007-01-02).
+
+ * !libavcodec*
