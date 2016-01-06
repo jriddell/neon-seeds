@@ -1,0 +1,16 @@
+Source: neon-meta
+Section: metapackages
+Priority: optional
+Maintainer: Neon Developers <neon@kde.org>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+
+Package: neon-desktop
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Neon Plasma Desktop system
+ This package depends on a sensible desktop for Neon. Installing this
+ package will include the default Plasma Desktop.
+ .
+ This package is also used by the updater to upgrade to new versions.
