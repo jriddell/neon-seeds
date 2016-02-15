@@ -14,3 +14,11 @@ Description: Neon Plasma Desktop system
  package will include the default Plasma Desktop.
  .
  This package is also used by the updater to upgrade to new versions.
+
+Package: neon-live
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Neon Live system
+ Used to make Neon live images, this metapackage is of no use on an
+ installed system.

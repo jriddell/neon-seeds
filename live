@@ -5,7 +5,27 @@ Task-Extended-Description: This task provides the extra packages installed on th
 Task-Relevance: 2
 Task-Key: ubiquity-frontend-kde
 Task-Test-new-install: skip show
-Task-Seeds: live-common
+
+## copy&paste of platform.wily live-common
+Ubiquity needs full filesystem support for the partitioner.
+
+ * xfsprogs
+ * jfsutils
+ * hfsplus [powerpc]  # ColinWatson
+ * reiserfsprogs
+ * btrfs-tools
+ * ntfs-3g
+
+# workaround for a broken aufs/overlayfs (e. g. LP #587888); also needs
+# cdimage change to use union=unionfs-fuse kernel parameter
+# * unionfs-fuse
+
+# * (bootchart) [!armel] # scheduled for removal before maverick beta
+
+== Germinate workarounds ==
+
+ * wamerican  # iamerican Depends: ispell Recommends: wordlist, but wamerican isn't spotted in time so germinate arbitrarily picks miscfiles instead
+## end of live-common
 
  * Languages: en
  * language-pack-${Languages}
@@ -50,4 +70,3 @@ These packages make up the Ubiquity live installer.
 
  * ubiquity-frontend-kde
  * ubiquity-ubuntu-artwork
- * ubiquity-slideshow-kubuntu
