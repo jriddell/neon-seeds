@@ -28,26 +28,26 @@ Ubiquity needs full filesystem support for the partitioner.
 ## end of live-common
 
  * Languages: en
- * language-pack-${Languages}
- * language-pack-kde-${Languages}
+# * language-pack-${Languages}
+# * language-pack-kde-${Languages}
 
 # subset of English language support which we want by default:
 # * libreoffice-help-en-us [i386 amd64 powerpc]
- * hunspell-en-us [!powerpc]
- * openoffice.org-hyphenation [!powerpc]
- * wamerican
+# * hunspell-en-us [!powerpc]
+# * openoffice.org-hyphenation [!powerpc]
+# * wamerican
 
 == Input methods ==
- * fcitx
- * fcitx-frontend-gtk2
- * fcitx-frontend-gtk3
- * fcitx-frontend-qt4
- * fcitx-frontend-qt5
- * fcitx-ui-classic
- * fcitx-table
- * fcitx-pinyin
- * fcitx-module-cloudpinyin
- * kde-config-fcitx
+# * fcitx
+# * fcitx-frontend-gtk2
+# * fcitx-frontend-gtk3
+# * fcitx-frontend-qt4
+# * fcitx-frontend-qt5
+# * fcitx-ui-classic
+# * fcitx-table
+# * fcitx-pinyin
+# * fcitx-module-cloudpinyin
+# * kde-config-fcitx
 
 #by order of popcon (de es fr ru it pt pl ja zh nl cs sv hu el)
 # * Languages: de
@@ -69,4 +69,3 @@ Ubiquity needs full filesystem support for the partitioner.
 These packages make up the Ubiquity live installer.
 
  * ubiquity-frontend-kde
- * ubiquity-ubuntu-artwork
