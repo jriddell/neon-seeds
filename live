@@ -3,7 +3,7 @@ Task-Section: user
 Task-Description: Neon live CD
 Task-Extended-Description: This task provides the extra packages installed on the Neon live CD. It is neither useful nor recommended to install this task in other environments.
 Task-Relevance: 2
-Task-Key: ubiquity-frontend-kde
+Task-Key: neon-live
 Task-Test-new-install: skip show
 
 ## copy&paste of platform.wily live-common
