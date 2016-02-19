@@ -6,3 +6,5 @@ by:
 
 - debootstrap (packages not yet added to debootstrap will not be added
   to ubuntu-base)
+
+Push to Git before creating the package
