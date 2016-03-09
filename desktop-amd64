@@ -24,6 +24,7 @@ kwrited
 libpam-systemd
 libsasl2-modules
 memtest86+
+neon-settings
 openprinting-ppds
 oxygen-sounds
 plasma-desktop
