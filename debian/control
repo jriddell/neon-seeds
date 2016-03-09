@@ -4,6 +4,8 @@ Priority: optional
 Maintainer: Neon Developers <neon@kde.org>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Vcs-Browser: http://packaging.neon.kde.org.uk/cgit/neon/seeds.git/
+Vcs-Git: git clone git://packaging.neon.kde.org.uk/neon/seeds
 
 Package: neon-desktop
 Architecture: any
