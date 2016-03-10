@@ -7,4 +7,4 @@ by:
 - debootstrap (packages not yet added to debootstrap will not be added
   to ubuntu-base)
 
-Push to Git before creating the package
+Push to Git before running ./update and pushing to Git again to create the package
