@@ -45,6 +45,7 @@ Input methods:
  * (frameworkintegration)
  * (kimageformat-plugins)
  * (qt5-image-formats-plugins)
+ * (oxygen-icon-theme) # ubiquity at least still uses parts of this (process-working)
 
 == Plasma ==
 
