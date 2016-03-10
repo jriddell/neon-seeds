@@ -84,6 +84,7 @@ Input methods:
  * (kde-config-sddm)
  * (user-manager)
  * (plasma-pa)
+ * (plymouth-theme-breeze)
 
 = Applications
 
@@ -91,8 +92,6 @@ Input methods:
 
 = Other =
 
- * (plymouth-theme-kubuntu-text)
- * (plymouth-theme-kubuntu-logo)
  * (cryptsetup) #needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
 
 == supporting bits ==
