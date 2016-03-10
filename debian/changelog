@@ -1,8 +1,7 @@
-neon-meta (3) UNRELEASED; urgency=medium
+neon-meta (4) UNRELEASED; urgency=medium
 
   * Refreshed dependencies
   * Added neon-settings to desktop
-  * Refreshed dependencies
   * Added plymouth-theme-breeze to desktop-recommends
   * Removed plymouth-theme-kubuntu-logo from desktop-recommends
   * Removed plymouth-theme-kubuntu-text from desktop-recommends
