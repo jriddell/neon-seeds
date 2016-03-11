@@ -5,10 +5,9 @@ neon-meta (4) UNRELEASED; urgency=medium
   * Added plymouth-theme-breeze to desktop-recommends
   * Removed plymouth-theme-kubuntu-logo from desktop-recommends
   * Removed plymouth-theme-kubuntu-text from desktop-recommends
-  * Added oxygen-icon-theme to desktop-recommends
   * Added grub-theme-breeze to desktop-recommends
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Mar 2016 17:09:34 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 11 Mar 2016 16:01:53 +0000
 
 neon-meta (1) wily; urgency=medium
 
