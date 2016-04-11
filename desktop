@@ -67,17 +67,15 @@ Input methods:
  * (plasma-widgets-addons)
  * (kde-config-gtk-style) #GTK setup
  * (kde-config-gtk-style-preview) # brings in the gtk libraries
- * (muon-discover)
- * (muon-notifier)
- * (polkit-kde-agent-1) # needed by muon but is an option compared to gtk polkit for gnome users
+ * (plasma-discover)
+ * (plasma-discover-updater)
+ * (polkit-kde-agent-1) # needed by discover but is an option compared to gtk polkit for gnome users
  * (ksshaskpass)
  * (bluedevil)
  * (kwin-addons)
- * (plasma-widgets-addons)
  * (plasma-dataengines-addons)
  * (plasma-runners-addons)
  * (plasma-wallpapers-addons)
- * (plasma-widget-kimpanel)
  * (kscreen)
  * (milou)
  * (plasma-nm)
@@ -102,6 +100,8 @@ Input methods:
  * (xdg-utils)         # useful utilities
  * (cdrdao)
  * (libqca2-plugin-ossl)
+ * (qml-module-qtquick-xmllistmodel)
+ * (qml-module-qtgraphicaleffects)
  * xdg-user-dirs
  * sddm-theme-breeze
  * neon-settings
