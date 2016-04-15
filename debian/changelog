@@ -6,8 +6,16 @@ neon-meta (4) UNRELEASED; urgency=medium
   * Removed plymouth-theme-kubuntu-logo from desktop-recommends
   * Removed plymouth-theme-kubuntu-text from desktop-recommends
   * Added grub-theme-breeze to desktop-recommends
+  * Refreshed dependencies
+  * Added plasma-discover to desktop-recommends
+  * Added plasma-discover-updater to desktop-recommends
+  * Added qml-module-qtgraphicaleffects to desktop-recommends
+  * Added qml-module-qtquick-xmllistmodel to desktop-recommends
+  * Removed muon-discover from desktop-recommends
+  * Removed muon-notifier from desktop-recommends
+  * Removed plasma-widget-kimpanel from desktop-recommends
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 11 Mar 2016 16:01:53 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 15 Apr 2016 13:50:22 +0100
 
 neon-meta (1) wily; urgency=medium
 
