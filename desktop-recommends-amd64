@@ -10,7 +10,6 @@ cups
 cups-bsd
 cups-client
 cups-filters
-fonts-droid
 fonts-guru
 fonts-kacst-one
 fonts-khmeros-core
@@ -71,7 +70,6 @@ qml-module-qtgraphicaleffects
 qml-module-qtquick-xmllistmodel
 qt5-image-formats-plugins
 ttf-ancient-fonts-symbola
-ttf-indic-fonts-core
 ttf-ubuntu-font-family
 udisks2
 upower

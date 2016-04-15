@@ -14,8 +14,11 @@ neon-meta (4) UNRELEASED; urgency=medium
   * Removed muon-discover from desktop-recommends
   * Removed muon-notifier from desktop-recommends
   * Removed plasma-widget-kimpanel from desktop-recommends
+  * Refreshed dependencies
+  * Removed fonts-droid from desktop-recommends
+  * Removed ttf-indic-fonts-core from desktop-recommends
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 15 Apr 2016 13:57:33 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 15 Apr 2016 14:32:02 +0100
 
 neon-meta (1) wily; urgency=medium
 
