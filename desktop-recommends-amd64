@@ -27,8 +27,6 @@ fwupd
 fwupdate
 fwupdate-signed
 grub-theme-breeze
-gstreamer-qapt
-gstreamer1.0-pulseaudio
 hplip
 ibus-qt4
 im-config
@@ -46,8 +44,8 @@ libqca2-plugin-ossl
 milou
 mobile-broadband-provider-info
 pcmciautils
-phonon-backend-gstreamer
-phonon4qt5-backend-gstreamer
+phonon-backend-vlc
+phonon4qt5-backend-vlc
 plasma-dataengines-addons
 plasma-discover
 plasma-discover-updater
