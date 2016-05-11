@@ -32,12 +32,11 @@ neon-meta (4) UNRELEASED; urgency=medium
   * Added vlc to desktop
   * Added yakuake to desktop
   * Removed libpam-systemd from desktop
-  * Refreshed dependencies
   * Added kate to desktop
   * Added konsole to desktop
   * Removed kwrite from desktop
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 May 2016 13:38:39 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 May 2016 13:29:58 +0100
 
 neon-meta (1) wily; urgency=medium
 
