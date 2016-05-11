@@ -37,10 +37,8 @@ Input methods:
 == Phonon and Frameworks ==
 
  * (pulseaudio)
- * (phonon-backend-gstreamer)
- * (phonon4qt5-backend-gstreamer)
- * (gstreamer1.0-pulseaudio)
- * (gstreamer-qapt)
+ * (phonon-backend-vlc)
+ * (phonon4qt5-backend-vlc)
  * (frameworkintegration)
  * (kimageformat-plugins)
  * (qt5-image-formats-plugins)
