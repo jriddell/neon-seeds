@@ -23,6 +23,9 @@ fonts-takao-pgothic
 fonts-thai-tlwg
 fonts-tibetan-machine
 frameworkintegration
+fwupd
+fwupdate
+fwupdate-signed
 grub-theme-breeze
 gstreamer-qapt
 gstreamer1.0-pulseaudio
@@ -69,6 +72,7 @@ pulseaudio-module-bluetooth
 qml-module-qtgraphicaleffects
 qml-module-qtquick-xmllistmodel
 qt5-image-formats-plugins
+snapd
 ttf-ancient-fonts-symbola
 ttf-ubuntu-font-family
 udisks2
