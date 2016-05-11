@@ -17,8 +17,23 @@ neon-meta (4) UNRELEASED; urgency=medium
   * Refreshed dependencies
   * Removed fonts-droid from desktop-recommends
   * Removed ttf-indic-fonts-core from desktop-recommends
+  * Refreshed dependencies
+  * Added ark to desktop
+  * Added dolphin to desktop
+  * Added firefox to desktop
+  * Added fwupd to desktop-recommends
+  * Added fwupdate to desktop-recommends
+  * Added fwupdate-signed to desktop-recommends
+  * Added gwenview to desktop
+  * Added ktorrent to desktop
+  * Added kwrite to desktop
+  * Added print-manager to desktop
+  * Added snapd to desktop-recommends
+  * Added vlc to desktop
+  * Added yakuake to desktop
+  * Removed libpam-systemd from desktop
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 15 Apr 2016 14:25:13 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 May 2016 13:29:58 +0100
 
 neon-meta (1) wily; urgency=medium
 
