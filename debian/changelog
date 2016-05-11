@@ -35,8 +35,16 @@ neon-meta (4) UNRELEASED; urgency=medium
   * Added kate to desktop
   * Added konsole to desktop
   * Removed kwrite from desktop
+  * Refreshed dependencies
+  * Refreshed dependencies
+  * Added phonon-backend-vlc to desktop-recommends
+  * Added phonon4qt5-backend-vlc to desktop-recommends
+  * Removed gstreamer-qapt from desktop-recommends
+  * Removed gstreamer1.0-pulseaudio from desktop-recommends
+  * Removed phonon-backend-gstreamer from desktop-recommends
+  * Removed phonon4qt5-backend-gstreamer from desktop-recommends
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 May 2016 13:29:58 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 May 2016 15:33:34 +0100
 
 neon-meta (1) wily; urgency=medium
 
