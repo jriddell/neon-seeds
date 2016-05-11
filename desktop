@@ -86,7 +86,17 @@ Input methods:
 
 = Applications
 
-# Add applications here
+ * dolphin
+ * yakuake
+ * kwrite
+ * ktorrent
+ * vlc
+ * ark
+ * print-manager
+ * gwenview
+# * kde-spectacle # not built with new qt yet
+# * okular # waiting on qt5 branch
+ * firefox # needs GTK fixed up
 
 = Other =
 
