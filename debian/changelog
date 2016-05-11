@@ -43,8 +43,10 @@ neon-meta (4) UNRELEASED; urgency=medium
   * Removed gstreamer1.0-pulseaudio from desktop-recommends
   * Removed phonon-backend-gstreamer from desktop-recommends
   * Removed phonon4qt5-backend-gstreamer from desktop-recommends
+  * Refreshed dependencies
+  * Removed kwrite from desktop
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 May 2016 15:33:34 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 May 2016 15:42:55 +0100
 
 neon-meta (1) wily; urgency=medium
 
