@@ -113,4 +113,4 @@ Input methods:
 libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007-01-02).
 
  * !libavcodec*
-!fonts-guru
+ * (!fonts-guru)
