@@ -24,11 +24,6 @@ Basic network services and Windows integration.
 
 = GUI infrastructure =
 
-Extra fonts (should be common, but not so for space reasons):
-
- * (fonts-nanum)
- * (fonts-liberation)
-
 Input methods:
 
 #remove these for now but investiagte best way to support CJK in Plasma
@@ -84,17 +79,17 @@ Input methods:
 
 = Applications
 
- * dolphin
- * yakuake
- * konsole
- * kate
- * vlc
- * ark
- * print-manager
- * gwenview
-# * kde-spectacle # not built with new qt yet
-# * okular # waiting on qt5 branch
- * firefox # needs GTK fixed up
+ * (dolphin)
+ * (yakuake)
+ * (konsole)
+ * (kate)
+ * (vlc)
+ * (ark)
+ * (print-manager)
+ * (gwenview)
+ * (kde-spectacle)
+# * (okular) # waiting on qt5 branch
+ * (firefox) # needs GTK fixed up
 
 = Other =
 
@@ -118,3 +113,5 @@ Input methods:
 libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007-01-02).
 
  * !libavcodec*
+ * !fonts-guru
+ 
