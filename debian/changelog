@@ -48,8 +48,11 @@ neon-meta (4) UNRELEASED; urgency=medium
   * Removed khelpcenter from desktop
   * Refreshed dependencies
   * Removed ktorrent from desktop
+  * Refreshed dependencies
+  * Removed ibus-qt4 from desktop-recommends
+  * Removed im-config from desktop-recommends
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 12 May 2016 09:48:07 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 May 2016 12:11:01 +0100
 
 neon-meta (1) wily; urgency=medium
 
