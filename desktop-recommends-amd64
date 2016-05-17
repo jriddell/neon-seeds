@@ -1,4 +1,5 @@
 acpi-support
+ark
 avahi-autoipd
 avahi-daemon
 bluedevil
@@ -10,13 +11,13 @@ cups
 cups-bsd
 cups-client
 cups-filters
+dolphin
+firefox
 fonts-guru
 fonts-kacst-one
 fonts-khmeros-core
 fonts-lao
-fonts-liberation
 fonts-lklug-sinhala
-fonts-nanum
 fonts-sil-abyssinica
 fonts-sil-padauk
 fonts-takao-pgothic
@@ -27,12 +28,16 @@ fwupd
 fwupdate
 fwupdate-signed
 grub-theme-breeze
+gwenview
 hplip
+kate
 kde-config-gtk-style
 kde-config-gtk-style-preview
 kde-config-sddm
+kde-spectacle
 kerneloops-daemon
 kimageformat-plugins
+konsole
 kscreen
 ksshaskpass
 kwin-addons
@@ -55,6 +60,7 @@ plasma-widgets-addons
 plymouth-theme-breeze
 policykit-desktop-privileges
 polkit-kde-agent-1
+print-manager
 printer-driver-brlaser
 printer-driver-c2esp
 printer-driver-foo2zjs
@@ -74,4 +80,6 @@ ttf-ubuntu-font-family
 udisks2
 upower
 user-manager
+vlc
 xdg-utils
+yakuake

@@ -51,8 +51,21 @@ neon-meta (4) UNRELEASED; urgency=medium
   * Refreshed dependencies
   * Removed ibus-qt4 from desktop-recommends
   * Removed im-config from desktop-recommends
+  * Refreshed dependencies
+  * Added kde-spectacle to desktop-recommends
+  * Removed fonts-liberation from desktop-recommends
+  * Removed fonts-nanum from desktop-recommends
+  * Moved ark to desktop-recommends
+  * Moved dolphin to desktop-recommends
+  * Moved firefox to desktop-recommends
+  * Moved gwenview to desktop-recommends
+  * Moved kate to desktop-recommends
+  * Moved konsole to desktop-recommends
+  * Moved print-manager to desktop-recommends
+  * Moved vlc to desktop-recommends
+  * Moved yakuake to desktop-recommends
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 May 2016 12:11:01 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 May 2016 13:22:01 +0100
 
 neon-meta (1) wily; urgency=medium
 
