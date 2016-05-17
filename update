@@ -10,6 +10,7 @@ if ! which debootstrap >/dev/null; then
 	exit 1
 fi
 
-exec germinate-update-metapackage --vcs
+germinate-update-metapackage --vcs
+sed -i '/ttf-.*/d' desktop-recommends-amd64
 sed -i '/fonts-.*/d' desktop-recommends-amd64
 sed -i '/fonts-.*/d' desktop-amd64

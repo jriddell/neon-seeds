@@ -13,16 +13,6 @@ cups-client
 cups-filters
 dolphin
 firefox
-fonts-guru
-fonts-kacst-one
-fonts-khmeros-core
-fonts-lao
-fonts-lklug-sinhala
-fonts-sil-abyssinica
-fonts-sil-padauk
-fonts-takao-pgothic
-fonts-thai-tlwg
-fonts-tibetan-machine
 frameworkintegration
 fwupd
 fwupdate
@@ -75,8 +65,6 @@ qml-module-qtgraphicaleffects
 qml-module-qtquick-xmllistmodel
 qt5-image-formats-plugins
 snapd
-ttf-ancient-fonts-symbola
-ttf-ubuntu-font-family
 udisks2
 upower
 user-manager
