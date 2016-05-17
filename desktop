@@ -31,8 +31,9 @@ Extra fonts (should be common, but not so for space reasons):
 
 Input methods:
 
- * (im-config)
- * (ibus-qt4)  # ibus support
+#remove these for now but investiagte best way to support CJK in Plasma
+# * (im-config)
+# * (ibus-qt4)  # ibus support
 
 == Phonon and Frameworks ==
 
