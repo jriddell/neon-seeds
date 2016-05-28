@@ -62,6 +62,7 @@ pulseaudio
 pulseaudio-module-bluetooth
 qml-module-qtgraphicaleffects
 qml-module-qtquick-xmllistmodel
+qt5-default
 qt5-image-formats-plugins
 snapd
 udisks2
