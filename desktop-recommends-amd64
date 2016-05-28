@@ -20,16 +20,17 @@ fwupdate-signed
 grub-theme-breeze
 gwenview
 hplip
+kate
 kde-config-gtk-style
 kde-config-gtk-style-preview
 kde-config-sddm
 kde-spectacle
 kerneloops-daemon
 kimageformat-plugins
+konsole
 kscreen
 ksshaskpass
 kwin-addons
-kwrite
 laptop-detect
 libnss-mdns
 libqca2-plugin-ossl
@@ -70,3 +71,4 @@ upower
 user-manager
 vlc
 xdg-utils
+yakuake
