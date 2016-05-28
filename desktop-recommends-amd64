@@ -26,6 +26,7 @@ kde-config-sddm
 kde-spectacle
 kerneloops-daemon
 kimageformat-plugins
+konsole
 kscreen
 ksshaskpass
 kwin-addons
@@ -62,6 +63,7 @@ pulseaudio
 pulseaudio-module-bluetooth
 qml-module-qtgraphicaleffects
 qml-module-qtquick-xmllistmodel
+qt5-default
 qt5-image-formats-plugins
 snapd
 udisks2
