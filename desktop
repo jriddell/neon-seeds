@@ -106,6 +106,7 @@ Input methods:
  * xdg-user-dirs
  * sddm-theme-breeze
  * neon-settings
+ * (qt5-default)
 
 == Blacklist ==
 
