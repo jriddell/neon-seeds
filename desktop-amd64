@@ -20,6 +20,7 @@ kwin
 kwrited
 libsasl2-modules
 memtest86+
+neon-keyring
 neon-settings
 openprinting-ppds
 oxygen-sounds
