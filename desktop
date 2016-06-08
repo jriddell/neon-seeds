@@ -107,6 +107,7 @@ Input methods:
  * sddm-theme-breeze
  * neon-settings
  * (qt5-default)
+ * neon-keyring
 
 == Blacklist ==
 
