@@ -108,6 +108,7 @@ Input methods:
  * neon-settings
  * (qt5-default)
  * neon-keyring
+ * (software-properties-common)
 
 == Blacklist ==
 
