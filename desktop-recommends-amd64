@@ -66,6 +66,7 @@ qml-module-qtquick-xmllistmodel
 qt5-default
 qt5-image-formats-plugins
 snapd
+software-properties-common
 udisks2
 upower
 user-manager
