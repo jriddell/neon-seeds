@@ -24,3 +24,10 @@ Recommends: ${germinate:Recommends}
 Description: Neon Live system
  Used to make Neon live images, this metapackage is of no use on an
  installed system.
+
+Package: neon-all
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: All Applications Built in KDE neon
+ A meta package to install all applications built as part of KDE neon.
