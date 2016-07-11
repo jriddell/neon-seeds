@@ -92,7 +92,7 @@ Task-Test-new-install: skip show
  * kdenlive
  * dolphin-plugins
  * kapptemplate
- * kde-dev-scripts
+ * kdesdk-scripts
  * kdesdk-thumbnailers
  * kompare
  * lokalize
