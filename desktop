@@ -109,6 +109,7 @@ Input methods:
  * (qt5-default)
  * neon-keyring
  * (software-properties-common)
+ * (qapt-deb-installer) # https://bugs.kde.org/show_bug.cgi?id=365236
 
 == Blacklist ==
 
