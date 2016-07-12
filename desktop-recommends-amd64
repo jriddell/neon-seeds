@@ -61,6 +61,7 @@ printer-driver-sag-gdi
 printer-driver-splix
 pulseaudio
 pulseaudio-module-bluetooth
+qapt-deb-installer
 qml-module-qtgraphicaleffects
 qml-module-qtquick-xmllistmodel
 qt5-default
