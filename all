@@ -99,6 +99,12 @@ Task-Test-new-install: skip show
  * okteta
  * poxml
  * umbrello
+ * kdenetwork-filesharing
+ * kio-extras
+ * krdc
+ * krfb
+ * signon-kwallet-extension
+ * kaccounts-integration
 
 == kde-extras ==
 
@@ -106,3 +112,4 @@ Task-Test-new-install: skip show
  * yakuake
  * kpmcore
  * partitionmanager
+ * konversation
