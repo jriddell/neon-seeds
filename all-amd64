@@ -7,13 +7,13 @@ dolphin-plugins
 ffmpegthumbs
 filelight
 granatier
+kaccounts-integration
 kalgebra
 kalzium
 kamera
 kanagram
 kapman
 kapptemplate
-kdesdk-scripts
 kate
 katomic
 kblackbox
@@ -29,7 +29,9 @@ kdebugsettings
 kdeconnect
 kdeedu-data
 kdegraphics-thumbnailers
+kdenetwork-filesharing
 kdenlive
+kdesdk-scripts
 kdesdk-thumbnailers
 kdiamond
 kfloppy
@@ -52,8 +54,11 @@ knavalbattle
 knetwalk
 kollision
 kompare
+konversation
 kpat
 kpmcore
+krdc
+krfb
 kruler
 kshisen
 ksquares
@@ -75,6 +80,7 @@ partitionmanager
 picmi
 poxml
 rocs
+signon-kwallet-extension
 spectacle
 step
 umbrello
