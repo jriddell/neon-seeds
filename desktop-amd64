@@ -28,8 +28,10 @@ plasma-desktop
 pm-utils
 powerdevil
 printer-driver-pnm2ppa
+qapt-deb-installer
 rfkill
 sddm-theme-breeze
+software-properties-common
 systemsettings
 ubuntu-drivers-common
 unzip
