@@ -23,6 +23,6 @@ system(*%w(apt install
            --assume-yes
            -o APT::Get::force-yes=true
            -o Debug::pkgProblemResolver=true
-           germinate dch debootstrap git bzr)) || abort
+           germinate devscripts debootstrap git bzr)) || abort
 
 exec #{File.expand_path(__dir__)}/update
