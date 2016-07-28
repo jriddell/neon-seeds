@@ -25,4 +25,4 @@ system(*%w(apt install
            -o Debug::pkgProblemResolver=true
            germinate devscripts debootstrap git bzr)) || abort
 
-exec #{File.expand_path(__dir__)}/update
+exec "#{File.expand_path(__dir__)}/update"
