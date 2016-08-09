@@ -104,6 +104,7 @@ Task-Test-new-install: skip show
  * krfb
  * signon-kwallet-extension
  * kaccounts-integration
+ * kontact
 
 == kde-extras ==
 
