@@ -30,6 +30,10 @@ Input methods:
 # * (im-config)
 # * (ibus-qt4)  # ibus support
 
+Fonts:
+ * fonts-noto-hinted
+ * fonts-oxygen
+
 == Phonon and Frameworks ==
 
  * (pulseaudio)
