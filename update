@@ -12,6 +12,6 @@ fi
 
 germinate-update-metapackage --vcs
 sed -i '/ttf-.*/d' desktop-recommends-amd64
-sed -i '/fonts-.*/d' desktop-recommends-amd64
-sed -i '/fonts-.*/d' desktop-amd64
+sed -i '/fonts-[^no].*/d' desktop-recommends-amd64
+sed -i '/fonts-[^no]/d' desktop-amd64
 git checkout debian/changelog
