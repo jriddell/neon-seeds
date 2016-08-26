@@ -113,7 +113,7 @@ Fonts:
  * (qt5-default)
  # NB: new additions ought to be depends always because of https://github.com/hughsie/PackageKit/issues/145
  * neon-keyring
- * software-properties-common (>= 1.0)
+ * software-properties-common
  * qapt-deb-installer # https://bugs.kde.org/show_bug.cgi?id=365236
  * fonts-noto-hinted # Plasma's default font, we want this!
  * fonts-hack-ttf
