@@ -1,0 +1,13 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Neon desktop Korea
+Task-Extended-Description: KDE's Plasma Desktop Korea Addons
+Task-Key: neon-desktop-ko
+
+ * language-pack-ko
+ * language-pack-ko-base
+ * language-pack-kde-ko
+ * language-pack-gnome-ko
+ * language-pack-gnome-ko-base
+ * ibus
+ * fonts-noto-cjk
