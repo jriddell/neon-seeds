@@ -11,7 +11,17 @@ Package: neon-desktop
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
-Description: Neon Plasma Desktop system
+Description: KDE neon Plasma Desktop system
+ This package depends on a sensible desktop for Neon. Installing this
+ package will include the default Plasma Desktop.
+ .
+ This package is also used by the updater to upgrade to new versions.
+
+Package: neon-desktop-ko
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: KDE neon Korean addons
  This package depends on a sensible desktop for Neon. Installing this
  package will include the default Plasma Desktop.
  .
