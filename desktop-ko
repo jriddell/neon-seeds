@@ -4,6 +4,7 @@ Task-Description: Neon desktop Korea
 Task-Extended-Description: KDE's Plasma Desktop Korea Addons
 Task-Key: neon-desktop-ko
 
+ * neon-desktop
  * language-pack-ko
  * language-pack-ko-base
  * language-pack-kde-ko
