@@ -12,5 +12,6 @@ Task-Key: neon-desktop-ko
  * language-pack-gnome-ko-base
  * ibus
  * fonts-noto-cjk
- * ibus-qt
+ * ibus-qt4
  * ibus-hangul
+ * neon-settings-ko
