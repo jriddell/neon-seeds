@@ -1,9 +1,11 @@
 fonts-noto-cjk
 ibus
 ibus-hangul
+ibus-qt4
 language-pack-gnome-ko
 language-pack-gnome-ko-base
 language-pack-kde-ko
 language-pack-ko
 language-pack-ko-base
 neon-desktop
+neon-settings-ko
