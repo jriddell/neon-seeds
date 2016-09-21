@@ -125,3 +125,11 @@ libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007
 
  * !libavcodec*
  * (!fonts-guru)
+
+== Intel Modesetting ==
+
+We use modesetting in neon for intel https://phabricator.kde.org/T3734
+
+ * xserver-xorg-video-intel-arbiter # This goes to either or
+ * (xserver-xorg-video-intel-native-modesetting) # This is what we recommend
+ * !xserver-xorg-video-intel # Don't want this.
