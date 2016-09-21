@@ -5,8 +5,8 @@ baloo-kf5
 bc
 breeze
 ca-certificates
-fonts-noto-hinted
 fonts-hack-ttf
+fonts-noto-hinted
 foomatic-db-compressed-ppds
 genisoimage
 ghostscript-x
@@ -42,4 +42,5 @@ wpasupplicant
 xdg-user-dirs
 xkb-data
 xorg
+xserver-xorg-video-intel-arbiter
 zip

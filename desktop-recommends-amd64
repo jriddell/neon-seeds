@@ -11,6 +11,7 @@ cups
 cups-bsd
 cups-client
 cups-filters
+desktop-file-utils
 dolphin
 firefox
 frameworkintegration
@@ -71,4 +72,4 @@ upower
 user-manager
 vlc
 xdg-utils
-desktop-file-utils
+xserver-xorg-video-intel-native-modesetting
