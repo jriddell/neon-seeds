@@ -25,6 +25,7 @@ kde-config-gtk-style
 kde-config-gtk-style-preview
 kde-config-sddm
 kde-spectacle
+kdialog
 kerneloops-daemon
 kimageformat-plugins
 konsole
