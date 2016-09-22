@@ -93,6 +93,7 @@ Fonts:
  * (kde-spectacle)
 # * (okular) # waiting on qt5 branch
  * (firefox) # needs GTK fixed up
+ * (kdialog)
 
 = Other =
 
