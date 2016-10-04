@@ -1,17 +1,24 @@
 #! /bin/sh
 
+set -x
+
+if [ -z "$OUTPUT_DIRECTORY" ]; then
+  OUTPUT_DIRECTORY=$(pwd)
+fi
+
 if ! which dch >/dev/null; then
-	echo >&2 "please install devscripts"
-	exit 1
+  echo >&2 "please install devscripts"
+  exit 1
 fi
 
 if ! which debootstrap >/dev/null; then
-	echo >&2 "please install debootstrap"
-	exit 1
+  echo >&2 "please install debootstrap"
+  exit 1
 fi
 
-germinate-update-metapackage --vcs
-sed -i '/ttf-.*/d' desktop-recommends-amd64
-sed -i '/fonts-[^nh].*/d' desktop-recommends-amd64
-sed -i '/fonts-[^nh]/d' desktop-amd64
+germinate-update-metapackage --vcs --output-directory $OUTPUT_DIRECTORY
+sed -i '/ttf-.*/d' $OUTPUT_DIRECTORY/desktop-recommends-amd64
+sed -i '/fonts-[^nh].*/d' $OUTPUT_DIRECTORY/desktop-recommends-amd64
+sed -i '/fonts-[^nh]/d' $OUTPUT_DIRECTORY/desktop-amd64
+cd $OUTPUT_DIRECTORY
 git checkout debian/changelog
