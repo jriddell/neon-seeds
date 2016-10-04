@@ -33,11 +33,11 @@ end
 
 config = ConfigParser.new("#{__dir__}/update.cfg")
 dist = config.fetch('DEFAULT').fetch('dist')
-config[dist]['seed_base'] = config.fetch(dist).fetch('seed_base').gsub!('git://packaging.neon.kde.org/', "file://#{__dir__}")
+config[dist]['seed_base'] = config.fetch(dist).fetch('seed_base').gsub!('git://anongit.neon.kde.org/', "file://#{__dir__}")
 config[dist]['seed_dist'] = config.fetch(dist).fetch('seed_dist').gsub!('neon/seeds', '')
 
 Dir.mktmpdir do |tmpdir|
+  FileUtils.cp_r("#{__dir__}/.", tmpdir, verbose: true)
   File.write("#{tmpdir}/update.cfg", config.to_s)
-	FileUtils.cp("#{__dir__}/update", "#{tmpdir}/update")
-	system("#{tmpdir}/update", chdir: __dir__) || abort
+  system({ 'OUTPUT_DIRECTORY' => __dir__ }, "#{tmpdir}/update", chdir: tmpdir) || abort
 end
