@@ -43,4 +43,5 @@ xdg-user-dirs
 xkb-data
 xorg
 xserver-xorg-video-intel-arbiter
+xserver-xorg-video-intel-native-modesetting
 zip
