@@ -13,5 +13,6 @@ Task-Key: neon-desktop-ko
  * ibus
  * fonts-noto-cjk
  * ibus-qt4
+ * ibus-gtk
  * ibus-hangul
  * neon-settings-ko
