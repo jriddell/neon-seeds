@@ -1,5 +1,6 @@
 fonts-noto-cjk
 ibus
+ibus-gtk
 ibus-hangul
 ibus-qt4
 language-pack-gnome-ko
