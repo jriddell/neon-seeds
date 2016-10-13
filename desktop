@@ -98,6 +98,10 @@ Fonts:
 = Other =
 
  * (cryptsetup) #needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
+ # According to kbroulik this is needed to have RTL languages supported
+ # properly, as such it shouldn't be removed as it can cause weird behavior.
+ # With RTL not actually being applied.
+ * qttranslations5-l10n
 
 == supporting bits ==
 
