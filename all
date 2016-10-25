@@ -120,3 +120,7 @@ Task-Test-new-install: skip show
  * muon
  * skrooge
  * skanlite
+ * kio-gdrive
+ * peruse
+ * kdevelop-php
+ * kdevelop-python
