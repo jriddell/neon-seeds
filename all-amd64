@@ -35,6 +35,8 @@ kdenlive
 kdesdk-scripts
 kdesdk-thumbnailers
 kdevelop
+kdevelop-php
+kdevelop-python
 kdiamond
 kfloppy
 kfourinline
@@ -81,6 +83,7 @@ muon
 okteta
 parley
 partitionmanager
+peruse
 picmi
 poxml
 rocs
