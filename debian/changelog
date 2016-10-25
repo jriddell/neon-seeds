@@ -1,5 +1,6 @@
 neon-meta (4) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Refreshed dependencies
   * Added neon-settings to desktop
   * Added plymouth-theme-breeze to desktop-recommends
@@ -64,6 +65,9 @@ neon-meta (4) UNRELEASED; urgency=medium
   * Moved print-manager to desktop-recommends
   * Moved vlc to desktop-recommends
   * Moved yakuake to desktop-recommends
+
+  [ Scarlett Clark ]
+  * Add kio-gdrive and peruse and kdevelop-php and kdevelop-python to all seed per jr. 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 May 2016 13:22:01 +0100
 
