@@ -137,4 +137,3 @@ We use modesetting in neon for intel https://phabricator.kde.org/T3734
 
  * xserver-xorg-video-intel-arbiter # This goes to either or
  * xserver-xorg-video-intel-native-modesetting # This is what we force
- * !xserver-xorg-video-intel # Don't want this.
