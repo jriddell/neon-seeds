@@ -86,6 +86,7 @@ Task-Test-new-install: skip show
  * kamera
  * kcolorchooser
  * kdegraphics-thumbnailers
+ * kdegraphics-mobipocket
  * kruler
  * dragon
  * ffmpegthumbs
