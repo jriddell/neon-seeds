@@ -115,7 +115,6 @@ Fonts:
  * xdg-user-dirs
  * sddm-theme-breeze
  * neon-settings
- * (qt5-default)
  # NB: new additions ought to be depends always because of https://github.com/hughsie/PackageKit/issues/145
  * neon-keyring
  * software-properties-common
