@@ -91,7 +91,7 @@ Fonts:
  * (print-manager)
  * (gwenview)
  * (kde-spectacle)
-# * (okular) # waiting on qt5 branch
+ * (okular) # waiting on qt5 branch
  * (firefox) # needs GTK fixed up
  * (kdialog)
 
