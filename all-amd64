@@ -29,15 +29,16 @@ kcolorchooser
 kcron
 kdebugsettings
 kdeconnect
+kdegraphics-mobipocket
 kdegraphics-thumbnailers
 kdenetwork-filesharing
 kdenlive
 kdesdk-scripts
 kdesdk-thumbnailers
 kdevelop
-kdf
 kdevelop-php
 kdevelop-python
+kdf
 kdiamond
 kfloppy
 kfourinline
@@ -86,6 +87,7 @@ muon
 okteta
 parley
 partitionmanager
+peruse
 picmi
 poxml
 rocs

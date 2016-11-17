@@ -38,6 +38,7 @@ libnss-mdns
 libqca2-plugin-ossl
 milou
 mobile-broadband-provider-info
+okular
 pcmciautils
 phonon-backend-vlc
 phonon4qt5-backend-vlc
@@ -65,7 +66,6 @@ pulseaudio
 pulseaudio-module-bluetooth
 qml-module-qtgraphicaleffects
 qml-module-qtquick-xmllistmodel
-qt5-default
 qt5-image-formats-plugins
 snapd
 udisks2
