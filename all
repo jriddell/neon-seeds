@@ -122,6 +122,5 @@ Task-Test-new-install: skip show
  * skrooge
  * skanlite
  * kio-gdrive
- * peruse
  * kdevelop-php
  * kdevelop-python
