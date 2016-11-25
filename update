@@ -20,5 +20,9 @@ germinate-update-metapackage --vcs --output-directory $OUTPUT_DIRECTORY
 sed -i '/ttf-.*/d' $OUTPUT_DIRECTORY/desktop-recommends-amd64
 sed -i '/fonts-[^no].*/d' $OUTPUT_DIRECTORY/desktop-recommends-amd64
 sed -i '/fonts-[^no]/d' $OUTPUT_DIRECTORY/desktop-amd64
+sed -i '/kerneloops-daemon/d' $OUTPUT_DIRECTORY/desktop-*amd64
+sed -i '/whoopsie/d' $OUTPUT_DIRECTORY/desktop-*amd64
+sed -i '/apport/d' $OUTPUT_DIRECTORY/desktop-*amd64
+sed -i '/systemd-coredump/d' $OUTPUT_DIRECTORY/desktop-*amd64
 cd $OUTPUT_DIRECTORY
 git checkout debian/changelog

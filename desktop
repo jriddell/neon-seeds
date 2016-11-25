@@ -136,3 +136,9 @@ We use modesetting in neon for intel https://phabricator.kde.org/T3734
  * xserver-xorg-video-intel-arbiter # This goes to either or
  * (xserver-xorg-video-intel-native-modesetting) # This is what we force
  * !xserver-xorg-video-intel # Don't want this.
+
+== Oops handling ==
+
+Disable oops handling by default. As of kcrash 5.29 oops are automatically forwarded to handlers, which by default would be apport, which we do not want. coredumpd might be handy, but is not used right now https://phabricator.kde.org/T3891
+
+We will thus mangle the output by sedding out the following: kerneloops-daemon, whoopsie, apport, systemd-coredump
