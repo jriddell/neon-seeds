@@ -3,6 +3,7 @@ blinken
 bomber
 bovo
 cantor
+cervisia
 digikam
 dolphin-plugins
 ffmpegthumbs
@@ -28,7 +29,6 @@ kcolorchooser
 kcron
 kdebugsettings
 kdeconnect
-kdeedu-data
 kdegraphics-thumbnailers
 kdenetwork-filesharing
 kdenlive
@@ -37,6 +37,7 @@ kdesdk-thumbnailers
 kdevelop
 kdevelop-php
 kdevelop-python
+kdf
 kdiamond
 kfloppy
 kfourinline
