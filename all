@@ -128,3 +128,14 @@ Task-Test-new-install: skip show
  * peruse
  * kdevelop-php
  * kdevelop-python
+
+== Calligra ==
+
+ * calligra
+ * kexi
+ * krita
+
+== Plasma ==
+
+ * khotkeys
+ * plymouth-kcm
