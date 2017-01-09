@@ -108,6 +108,11 @@ Task-Test-new-install: skip show
  * kaccounts-integration
  * kontact
  * kgpg
+ * kwave
+ * ktouch
+ * konqueror
+ * kfind
+ * kdialog
 
 == kde-extras ==
 
