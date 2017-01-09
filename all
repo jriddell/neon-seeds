@@ -112,7 +112,6 @@ Task-Test-new-install: skip show
  * ktouch
  * konqueror
  * kfind
- * kdialog
 
 == kde-extras ==
 
