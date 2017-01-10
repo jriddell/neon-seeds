@@ -70,6 +70,7 @@ snapd
 udisks2
 upower
 user-manager
+vim
 vlc
 xdg-utils
 xserver-xorg-video-intel-native-modesetting
