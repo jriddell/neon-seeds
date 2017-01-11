@@ -22,6 +22,7 @@ kwin
 kwrited
 libsasl2-modules
 memtest86+
+neon-hardware-integration
 neon-keyring
 neon-settings
 openprinting-ppds
