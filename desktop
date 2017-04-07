@@ -123,6 +123,7 @@ Fonts:
  * fonts-noto-hinted # Plasma's default font, we want this!
  * fonts-hack-ttf
  * (desktop-file-utils) # used by appimage https://github.com/blue-systems/pangea-tooling/issues/4
+ * docker-neon
 
 == Blacklist ==
 
