@@ -21,6 +21,7 @@ ksysguard
 kwin
 kwrited
 libsasl2-modules
+lvm2
 memtest86+
 neon-keyring
 neon-settings
