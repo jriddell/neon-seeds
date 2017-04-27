@@ -124,6 +124,7 @@ Fonts:
  * (desktop-file-utils) # used by appimage https://github.com/blue-systems/pangea-tooling/issues/4
  * neon-hardware-integration # UDev rules applying hardware fixes where necessary.
  * docker-neon
+ * (drkonqi-pk-debug-installer) # Debug installer for drkonqi
 
 == Blacklist ==
 
