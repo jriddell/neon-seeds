@@ -112,6 +112,11 @@ Task-Test-new-install: skip show
  * ktouch
  * konqueror
  * kfind
+ * k3b
+ * kajongg
+ * kcachegrind
+ * kde-dev-utils
+ * kio-perldoc
 
 == kde-extras ==
 
@@ -130,6 +135,21 @@ Task-Test-new-install: skip show
  * kdevelop-php
  * kdevelop-python
  * smb4k
+ * tellico
+ * colord-kde
+ * gammaray
+ * heaptrack
+ * kaffeine
+ * kamoso
+ * kdiagram
+ * kio-gdrive
+ * kronometer
+ * labplot
+ * muon
+ * peruse
+ * skanlite
+ * skrooge
+ * zanshin
 
 == Calligra ==
 
