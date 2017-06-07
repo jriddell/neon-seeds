@@ -23,7 +23,6 @@ gwenview
 hplip
 kde-config-gtk-style
 kde-config-gtk-style-preview
-kde-config-plymouth
 kde-config-sddm
 kde-spectacle
 kdialog
@@ -73,6 +72,5 @@ upower
 user-manager
 vim
 vlc
-xdg-desktop-portal-kde
 xdg-utils
 xserver-xorg-video-intel-native-modesetting
