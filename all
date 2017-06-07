@@ -113,7 +113,6 @@ Task-Test-new-install: skip show
  * konqueror
  * kfind
  * k3b
- * kajongg
  * kcachegrind
  * kde-dev-utils
  * kio-perldoc
