@@ -82,7 +82,7 @@ Fonts:
  * (plymouth-theme-breeze)
  * (grub-theme-breeze)
  * (kde-config-plymouth)
- * (plasma-wayland-desktop)
+ * (plasma-workspace-wayland)
 
 = Applications
 
