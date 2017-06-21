@@ -153,3 +153,6 @@ We will thus mangle the output by sedding out the following: kerneloops-daemon, 
 
  # Recommend vim so Harald doesn't smash his keyboard.
  * (vim)
+ # Recommend curl because openqa/os-autoinst uses curl to upload artifacts from
+ # the VM to the test driver.
+ * (curl)
