@@ -11,6 +11,7 @@ cups
 cups-bsd
 cups-client
 cups-filters
+curl
 desktop-file-utils
 dolphin
 drkonqi-pk-debug-installer
