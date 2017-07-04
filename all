@@ -136,6 +136,7 @@ Task-Test-new-install: skip show
  * smb4k
  * tellico
  * colord-kde
+ * gammaray
  * heaptrack
  * kaffeine
  * kamoso
