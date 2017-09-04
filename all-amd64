@@ -10,6 +10,7 @@ digikam
 dolphin-plugins
 ffmpegthumbs
 filelight
+gammaray
 granatier
 heaptrack
 k3b
@@ -59,8 +60,10 @@ kig
 killbots
 kio-gdrive
 kio-perldoc
+kio-stash
 kiriki
 kiten
+kjots
 kjumpingcube
 klettres
 klickety
@@ -97,6 +100,7 @@ kwordquiz
 labplot
 lokalize
 marble
+massif-visualizer
 minuet
 muon
 okteta
