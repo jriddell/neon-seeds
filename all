@@ -148,7 +148,6 @@ Task-Test-new-install: skip show
  * skanlite
  * skrooge
  * zanshin
- * gammaray
  * heaptrack
  * kio-stash
  * kjots
