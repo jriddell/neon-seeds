@@ -154,6 +154,7 @@ Task-Test-new-install: skip show
  * kronometer
  * labplot
  * massif-visualizer
+ * kgraphviewer
 
 == Calligra ==
 
