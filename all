@@ -162,6 +162,7 @@ Task-Test-new-install: skip show
  * labplot
  * massif-visualizer
  * spacebar
+ * kgraphviewer
 
 == Calligra ==
 
