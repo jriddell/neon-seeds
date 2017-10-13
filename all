@@ -173,3 +173,4 @@ Task-Test-new-install: skip show
 == Plasma ==
 
  * khotkeys
+ * plasma-vault
