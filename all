@@ -163,6 +163,8 @@ Task-Test-new-install: skip show
  * massif-visualizer
  * spacebar
  * kgraphviewer
+ * ktexteditorpreviewplugin
+ * kmarkdownwebview
 
 == Calligra ==
 
