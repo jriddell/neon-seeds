@@ -116,6 +116,17 @@ Task-Test-new-install: skip show
  * kcachegrind
  * kde-dev-utils
  * kio-perldoc
+ * juk
+ * kimagemapeditor
+ * kget
+ * kmix
+ * kmouth
+ * kolf
+ * ksirk
+ * palapeli
+ * sweeper
+ * zeronconf-ioslave
+ * kde-dev-scripts
 
 == kde-extras ==
 
