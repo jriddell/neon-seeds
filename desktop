@@ -83,6 +83,7 @@ Fonts:
  * (grub-theme-breeze)
  * (kde-config-plymouth)
  * (plasma-vault)
+ * (plasma-workspace-wayland)
 
 = Applications
 
