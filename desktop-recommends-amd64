@@ -53,6 +53,7 @@ plasma-runners-addons
 plasma-vault
 plasma-wallpapers-addons
 plasma-widgets-addons
+plasma-workspace-wayland
 plymouth-theme-breeze
 policykit-desktop-privileges
 polkit-kde-agent-1
