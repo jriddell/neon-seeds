@@ -154,6 +154,8 @@ Task-Test-new-install: skip show
  * labplot
  * massif-visualizer
  * kgraphviewer
+ * ktexteditorpreviewplugin
+ * kmarkdownwebview
  * kmymoney
  * kstars
 
