@@ -46,7 +46,6 @@ Task-Test-new-install: skip show
  * klettres
  * kmplot
  * kqtquickcharts
- * kstars
  * ktouch
  * kturtle
  * kwordquiz
@@ -159,6 +158,8 @@ Task-Test-new-install: skip show
  * kgraphviewer
  * ktexteditorpreviewplugin
  * kmarkdownwebview
+ * kmymoney
+ * kstars
 
 == Calligra ==
 
