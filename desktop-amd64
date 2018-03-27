@@ -5,7 +5,6 @@ baloo-kf5
 bc
 breeze
 ca-certificates
-docker-neon
 fonts-hack-ttf
 fonts-noto-hinted
 foomatic-db-compressed-ppds
@@ -24,7 +23,6 @@ kwrited
 libsasl2-modules
 lvm2
 memtest86+
-neon-hardware-integration
 neon-keyring
 neon-settings
 openprinting-ppds
