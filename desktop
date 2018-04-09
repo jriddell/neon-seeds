@@ -122,7 +122,6 @@ Fonts:
  * neon-settings
  * neon-keyring
  * software-properties-common
- * qapt-deb-installer # https://bugs.kde.org/show_bug.cgi?id=365236
  * fonts-noto-hinted # Plasma's default font, we want this!
  * fonts-hack-ttf
  * (desktop-file-utils) # used by appimage https://github.com/blue-systems/pangea-tooling/issues/4
