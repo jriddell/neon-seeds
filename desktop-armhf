@@ -24,6 +24,7 @@ ksysguard
 kwin
 kwrited
 libsasl2-modules
+libu2f-udev
 lvm2
 openprinting-ppds
 oxygen-sounds
@@ -31,11 +32,11 @@ plasma-desktop
 pm-utils
 powerdevil
 printer-driver-pnm2ppa
-qapt-deb-installer
 qttranslations5-l10n
 rfkill
 sddm-theme-breeze
 software-properties-common
+spice-vdagent
 systemsettings
 ubuntu-drivers-common
 unzip

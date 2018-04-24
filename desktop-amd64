@@ -21,8 +21,8 @@ ksysguard
 kwin
 kwrited
 libsasl2-modules
+libu2f-udev
 lvm2
-memtest86+
 neon-keyring
 neon-settings
 openprinting-ppds
@@ -35,6 +35,7 @@ qttranslations5-l10n
 rfkill
 sddm-theme-breeze
 software-properties-common
+spice-vdagent
 systemsettings
 ubuntu-drivers-common
 unzip

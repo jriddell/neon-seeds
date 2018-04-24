@@ -14,16 +14,18 @@ curl
 desktop-file-utils
 dolphin
 firefox
-fonts-guru
+fonts-indic
 fonts-kacst-one
 fonts-khmeros-core
 fonts-lao
+fonts-liberation
 fonts-lklug-sinhala
+fonts-noto-cjk
 fonts-sil-abyssinica
 fonts-sil-padauk
-fonts-takao-pgothic
 fonts-thai-tlwg
 fonts-tibetan-machine
+fonts-ubuntu
 frameworkintegration
 fwupd
 fwupdate
@@ -49,6 +51,7 @@ libnss-mdns
 milou
 mobile-broadband-provider-info
 okular
+packagekit
 pcmciautils
 phonon-backend-vlc
 phonon4qt5-backend-vlc
@@ -68,6 +71,7 @@ print-manager
 printer-driver-brlaser
 printer-driver-c2esp
 printer-driver-foo2zjs
+printer-driver-m2300w
 printer-driver-min12xxw
 printer-driver-ptouch
 printer-driver-pxljr
@@ -79,8 +83,6 @@ qml-module-qtgraphicaleffects
 qml-module-qtquick-xmllistmodel
 qt5-image-formats-plugins
 snapd
-ttf-ancient-fonts-symbola
-ttf-ubuntu-font-family
 udisks2
 upower
 user-manager
