@@ -153,6 +153,13 @@ Disable oops handling by default. As of kcrash 5.29 oops are automatically forwa
 We will thus mangle the output by sedding out the following: kerneloops-daemon, whoopsie, apport, systemd-coredump.
 This happens in our ./update script!
 
+== Ubuntu Masking ==
+
+Ubuntu has some excessively useless deps deep in the stack. We'll "mask" them
+with our own empty versions to get rid of them.
+
+ * neon-adwaita
+
 == Sanity ==
 
  # Recommend vim so Harald doesn't smash his keyboard.
