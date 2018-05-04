@@ -158,7 +158,8 @@ This happens in our ./update script!
 Ubuntu has some excessively useless deps deep in the stack. We'll "mask" them
 with our own empty versions to get rid of them.
 
- * (neon-adwaita)
+ * (neon-adwaita) # https://phabricator.kde.org/T8363
+ * (neon-ubuntu-advantage-tools) # https://phabricator.kde.org/T8633
 
 == Sanity ==
 
