@@ -158,7 +158,7 @@ This happens in our ./update script!
 Ubuntu has some excessively useless deps deep in the stack. We'll "mask" them
 with our own empty versions to get rid of them.
 
- * neon-adwaita
+ * (neon-adwaita)
 
 == Sanity ==
 

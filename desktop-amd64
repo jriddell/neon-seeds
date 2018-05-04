@@ -23,7 +23,6 @@ kwrited
 libsasl2-modules
 libu2f-udev
 lvm2
-neon-adwaita
 neon-keyring
 neon-settings
 openprinting-ppds
