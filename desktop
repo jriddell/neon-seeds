@@ -160,6 +160,7 @@ with our own empty versions to get rid of them.
 
  * (neon-adwaita) # https://phabricator.kde.org/T8363
  * (neon-ubuntu-advantage-tools) # https://phabricator.kde.org/T8633
+ * (neon-apport) # https://phabricator.kde.org/T8659
 
 == Sanity ==
 
