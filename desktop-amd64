@@ -6,8 +6,11 @@ bc
 breeze
 ca-certificates
 docker-neon
+fonts-dejavu-core
+fonts-freefont-ttf
 fonts-hack-ttf
 fonts-noto-hinted
+fonts-symbola
 foomatic-db-compressed-ppds
 genisoimage
 ghostscript-x
