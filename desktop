@@ -130,6 +130,8 @@ Fonts:
  * neon-hardware-integration # UDev rules applying hardware fixes where necessary.
  * docker-neon
  * (drkonqi-pk-debug-installer) # Debug installer for drkonqi
+ * distro-release-notifier
+ * ubuntu-release-upgrader-qt
 
 == Blacklist ==
 
