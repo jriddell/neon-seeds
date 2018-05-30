@@ -5,6 +5,7 @@ baloo-kf5
 bc
 breeze
 ca-certificates
+distro-release-notifier
 docker-neon
 fonts-hack-ttf
 fonts-noto-hinted
