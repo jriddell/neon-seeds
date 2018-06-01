@@ -27,7 +27,6 @@ Task-Test-new-install: skip show
  * ktimer
  * kcron
  * ksystemlog
- * kuser
  * khelpcenter
  * analitza
  * artikulate
@@ -156,7 +155,7 @@ Task-Test-new-install: skip show
  * kgraphviewer
  * ktexteditorpreviewplugin
  * kmarkdownwebview
- * kmymoney
+# * kmymoney
  * kstars
 
 == Calligra ==
