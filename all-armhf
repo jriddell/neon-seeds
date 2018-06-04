@@ -24,6 +24,7 @@ kanagram
 kapman
 kapptemplate
 katomic
+kbackup
 kblackbox
 kblocks
 kbounce
@@ -70,7 +71,6 @@ kmines
 kmix
 kmouth
 kmplot
-kmymoney
 knavalbattle
 knetwalk
 kolf
@@ -79,6 +79,7 @@ kompare
 konqueror
 kontact
 konversation
+kopete
 kpat
 krdc
 krfb
@@ -94,7 +95,6 @@ ktimer
 ktouch
 ktuberling
 kturtle
-kuser
 kwave
 kwordquiz
 lokalize

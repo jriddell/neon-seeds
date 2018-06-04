@@ -16,16 +16,6 @@ desktop-file-utils
 dolphin
 drkonqi-pk-debug-installer
 firefox
-fonts-guru
-fonts-kacst-one
-fonts-khmeros-core
-fonts-lao
-fonts-lklug-sinhala
-fonts-sil-abyssinica
-fonts-sil-padauk
-fonts-takao-pgothic
-fonts-thai-tlwg
-fonts-tibetan-machine
 frameworkintegration
 fwupd
 fwupdate
@@ -40,7 +30,6 @@ kde-config-plymouth
 kde-config-sddm
 kde-spectacle
 kdialog
-kerneloops-daemon
 kimageformat-plugins
 konsole
 kscreen
@@ -56,6 +45,7 @@ pcmciautils
 phonon-backend-vlc
 phonon4qt5-backend-vlc
 plasma-browser-integration
+plasma-calendar-addons
 plasma-dataengines-addons
 plasma-discover
 plasma-discover-updater
@@ -84,8 +74,6 @@ qml-module-qtgraphicaleffects
 qml-module-qtquick-xmllistmodel
 qt5-image-formats-plugins
 snapd
-ttf-ancient-fonts-symbola
-ttf-ubuntu-font-family
 udisks2
 upower
 user-manager
