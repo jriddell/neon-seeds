@@ -5,7 +5,6 @@ baloo-kf5
 bc
 breeze
 ca-certificates
-distro-release-notifier
 docker-neon
 fonts-dejavu-core
 fonts-freefont-ttf
@@ -43,7 +42,6 @@ sddm-theme-breeze
 software-properties-common
 systemsettings
 ubuntu-drivers-common
-ubuntu-release-upgrader-qt
 unzip
 wireless-tools
 wpasupplicant
