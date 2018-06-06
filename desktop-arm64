@@ -37,6 +37,7 @@ sddm-theme-breeze
 software-properties-common
 systemsettings
 ubuntu-drivers-common
+ubuntu-release-upgrader-qt
 unzip
 wireless-tools
 wpasupplicant
