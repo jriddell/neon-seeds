@@ -10,8 +10,10 @@ digikam
 dolphin-plugins
 ffmpegthumbs
 filelight
+gammaray
 granatier
 heaptrack
+juk
 k3b
 kaccounts-integration
 kaffeine
@@ -52,12 +54,14 @@ kfind
 kfloppy
 kfourinline
 kgeography
+kget
 kgpg
 kgraphviewer
 khangman
 khelpcenter
 kig
 killbots
+kimagemapeditor
 kio-gdrive
 kio-perldoc
 kio-stash
@@ -71,10 +75,13 @@ klines
 kmahjongg
 kmarkdownwebview
 kmines
+kmix
+kmouth
 kmplot
 kmymoney
 knavalbattle
 knetwalk
+kolf
 kollision
 kompare
 konqueror
@@ -88,6 +95,7 @@ krita
 kronometer
 kruler
 kshisen
+ksirk
 ksquares
 kstars
 ksystemlog
@@ -106,6 +114,7 @@ massif-visualizer
 minuet
 muon
 okteta
+palapeli
 parley
 partitionmanager
 peruse
@@ -118,6 +127,7 @@ skrooge
 smb4k
 spectacle
 step
+sweeper
 tellico
 umbrello
 yakuake
