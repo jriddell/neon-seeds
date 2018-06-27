@@ -122,13 +122,14 @@ Fonts:
  * neon-settings
  * neon-keyring
  * software-properties-common
- * qapt-deb-installer # https://bugs.kde.org/show_bug.cgi?id=365236
  * fonts-noto-hinted # Plasma's default font, we want this!
  * fonts-hack-ttf
  * (desktop-file-utils) # used by appimage https://github.com/blue-systems/pangea-tooling/issues/4
  * neon-hardware-integration # UDev rules applying hardware fixes where necessary.
  * docker-neon
  * (drkonqi-pk-debug-installer) # Debug installer for drkonqi
+ * distro-release-notifier
+ * ubuntu-release-upgrader-qt
 
 == Blacklist ==
 
@@ -149,7 +150,17 @@ We use modesetting in neon for intel https://phabricator.kde.org/T3734
 
 Disable oops handling by default. As of kcrash 5.29 oops are automatically forwarded to handlers, which by default would be apport, which we do not want. coredumpd might be handy, but is not used right now https://phabricator.kde.org/T3891
 
-We will thus mangle the output by sedding out the following: kerneloops-daemon, whoopsie, apport, systemd-coredump
+We will thus mangle the output by sedding out the following: kerneloops-daemon, whoopsie, apport, systemd-coredump.
+This happens in our ./update script!
+
+== Ubuntu Masking ==
+
+Ubuntu has some excessively useless deps deep in the stack. We'll "mask" them
+with our own empty versions to get rid of them.
+
+ * (neon-adwaita) # https://phabricator.kde.org/T8363
+ * (neon-ubuntu-advantage-tools) # https://phabricator.kde.org/T8633
+ * (neon-apport) # https://phabricator.kde.org/T8659
 
 == Sanity ==
 
