@@ -5,6 +5,8 @@ baloo-kf5
 bc
 breeze
 ca-certificates
+distro-release-notifier
+docker-neon
 fonts-hack-ttf
 fonts-noto-hinted
 foomatic-db-compressed-ppds
@@ -23,6 +25,7 @@ kwrited
 libsasl2-modules
 libu2f-udev
 lvm2
+neon-hardware-integration
 neon-keyring
 neon-settings
 openprinting-ppds
@@ -38,6 +41,7 @@ software-properties-common
 spice-vdagent
 systemsettings
 ubuntu-drivers-common
+ubuntu-release-upgrader-qt
 unzip
 wireless-tools
 wpasupplicant

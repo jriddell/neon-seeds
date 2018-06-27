@@ -84,6 +84,7 @@ Fonts:
  * (kde-config-plymouth)
  * (plasma-vault)
  * (plasma-workspace-wayland)
+ * (plasma-browser-integration)
 
 = Applications
 
@@ -128,8 +129,8 @@ Fonts:
  * neon-hardware-integration # UDev rules applying hardware fixes where necessary.
  * docker-neon
  * (drkonqi-pk-debug-installer) # Debug installer for drkonqi
- # translation management metadata and desktop agnostic helpers
- * language-selector-common
+ * distro-release-notifier
+ * ubuntu-release-upgrader-qt
 
 == Blacklist ==
 

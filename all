@@ -27,7 +27,6 @@ Task-Test-new-install: skip show
  * ktimer
  * kcron
  * ksystemlog
- * kuser
  * khelpcenter
  * analitza
  * artikulate
