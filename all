@@ -155,7 +155,7 @@ Task-Test-new-install: skip show
  * kgraphviewer
  * ktexteditorpreviewplugin
  * kmarkdownwebview
-# * kmymoney
+ * kmymoney
  * kstars
 
 == Calligra ==
