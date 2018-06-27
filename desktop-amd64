@@ -5,6 +5,7 @@ baloo-kf5
 bc
 breeze
 ca-certificates
+docker-neon
 fonts-hack-ttf
 fonts-noto-hinted
 foomatic-db-compressed-ppds
@@ -21,8 +22,11 @@ ksysguard
 kwin
 kwrited
 libsasl2-modules
+libu2f-udev
 lvm2
-memtest86+
+neon-hardware-integration
+neon-keyring
+neon-settings
 openprinting-ppds
 oxygen-sounds
 plasma-desktop
@@ -34,6 +38,7 @@ qttranslations5-l10n
 rfkill
 sddm-theme-breeze
 software-properties-common
+spice-vdagent
 systemsettings
 ubuntu-drivers-common
 unzip
@@ -42,4 +47,5 @@ wpasupplicant
 xdg-user-dirs
 xkb-data
 xorg
+xserver-xorg-video-intel-arbiter
 zip

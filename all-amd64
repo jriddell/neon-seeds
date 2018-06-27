@@ -60,6 +60,8 @@ khelpcenter
 kig
 killbots
 kio-gdrive
+kio-perldoc
+kio-stash
 kiriki
 kiten
 kjots
@@ -68,6 +70,7 @@ klettres
 klickety
 klines
 kmahjongg
+kmarkdownwebview
 kmines
 kmplot
 kmymoney
@@ -79,6 +82,7 @@ konqueror
 kontact
 konversation
 kpat
+kpmcore
 krdc
 krfb
 krita
@@ -89,6 +93,7 @@ ksquares
 kstars
 ksystemlog
 kteatime
+ktexteditorpreviewplugin
 ktimer
 ktouch
 ktuberling
@@ -104,6 +109,7 @@ muon
 okteta
 parley
 partitionmanager
+peruse
 picmi
 poxml
 rocs
