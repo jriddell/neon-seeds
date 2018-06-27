@@ -14,7 +14,6 @@ cups-filters
 curl
 desktop-file-utils
 dolphin
-drkonqi-pk-debug-installer
 firefox
 frameworkintegration
 fwupd
@@ -30,6 +29,7 @@ kde-config-plymouth
 kde-config-sddm
 kde-spectacle
 kdialog
+kerneloops
 kimageformat-plugins
 konsole
 kscreen
@@ -37,13 +37,14 @@ ksshaskpass
 kwin-addons
 laptop-detect
 libnss-mdns
-libqca2-plugin-ossl
 milou
 mobile-broadband-provider-info
 okular
 pcmciautils
 phonon-backend-vlc
 phonon4qt5-backend-vlc
+plasma-browser-integration
+plasma-calendar-addons
 plasma-dataengines-addons
 plasma-discover
 plasma-discover-updater
