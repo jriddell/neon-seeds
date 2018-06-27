@@ -150,7 +150,17 @@ We use modesetting in neon for intel https://phabricator.kde.org/T3734
 
 Disable oops handling by default. As of kcrash 5.29 oops are automatically forwarded to handlers, which by default would be apport, which we do not want. coredumpd might be handy, but is not used right now https://phabricator.kde.org/T3891
 
-We will thus mangle the output by sedding out the following: kerneloops-daemon, whoopsie, apport, systemd-coredump
+We will thus mangle the output by sedding out the following: kerneloops-daemon, whoopsie, apport, systemd-coredump.
+This happens in our ./update script!
+
+== Ubuntu Masking ==
+
+Ubuntu has some excessively useless deps deep in the stack. We'll "mask" them
+with our own empty versions to get rid of them.
+
+ * (neon-adwaita) # https://phabricator.kde.org/T8363
+ * (neon-ubuntu-advantage-tools) # https://phabricator.kde.org/T8633
+ * (neon-apport) # https://phabricator.kde.org/T8659
 
 == Sanity ==
 
