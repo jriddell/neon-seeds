@@ -152,6 +152,16 @@ We use modesetting in neon for intel https://phabricator.kde.org/T3734
  * (xserver-xorg-video-intel-native-modesetting) # This is what we force
  * !xserver-xorg-video-intel # Don't want this.
 
+== Input Drivers ==
+
+We use evdev even on 18.04 where libinput is the platform default. This is
+because our KCMs aren't up to the part. The actual preference switch is carried
+out by neon-settings. We only need to make sure evdev is installed in some form.
+This is only recommends so users can opt to switch to libiniput manually if
+they so choose.
+
+ * (xserver-xorg-input-evdev)
+
 == Oops handling ==
 
 Disable oops handling by default. As of kcrash 5.29 oops are automatically forwarded to handlers, which by default would be apport, which we do not want. coredumpd might be handy, but is not used right now https://phabricator.kde.org/T3891
