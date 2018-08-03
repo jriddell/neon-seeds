@@ -41,7 +41,6 @@ libnss-mdns
 memtest86+
 milou
 mobile-broadband-provider-info
-neon-adwaita
 neon-apport
 neon-ubuntu-advantage-tools
 okular
@@ -84,4 +83,5 @@ user-manager
 vim
 vlc
 xdg-utils
+xserver-xorg-input-evdev
 xserver-xorg-video-intel-native-modesetting
