@@ -14,6 +14,7 @@ cups-filters
 curl
 desktop-file-utils
 dolphin
+drkonqi-pk-debug-installer
 firefox
 fonts-noto-cjk
 frameworkintegration
@@ -41,7 +42,6 @@ libnss-mdns
 memtest86+
 milou
 mobile-broadband-provider-info
-neon-adwaita
 neon-apport
 neon-ubuntu-advantage-tools
 okular
