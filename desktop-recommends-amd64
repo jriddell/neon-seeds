@@ -85,4 +85,5 @@ vim
 vlc
 xdg-utils
 xserver-xorg-input-evdev
+xserver-xorg-input-synaptics
 xserver-xorg-video-intel-native-modesetting
