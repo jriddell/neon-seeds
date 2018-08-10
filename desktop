@@ -162,6 +162,12 @@ they so choose.
 
  * (xserver-xorg-input-evdev)
 
+Also drag in synaptics. It's also available by default in xenial, alongside
+evdev and its absence seems to cause trouble with certain touchpads
+https://bugs.kde.org/show_bug.cgi?id=397269
+
+ * (xserver-xorg-input-synaptics)
+
 == Oops handling ==
 
 Disable oops handling by default. As of kcrash 5.29 oops are automatically forwarded to handlers, which by default would be apport, which we do not want. coredumpd might be handy, but is not used right now https://phabricator.kde.org/T3891
