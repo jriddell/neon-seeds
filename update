@@ -1,6 +1,6 @@
 #! /bin/sh
 
-set -x
+set -ex
 
 if [ -z "$OUTPUT_DIRECTORY" ]; then
   OUTPUT_DIRECTORY=$(pwd)
