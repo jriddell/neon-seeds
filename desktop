@@ -63,6 +63,7 @@ Fonts:
  * powerdevil
  * systemsettings
  * (plasma-widgets-addons)
+ * (plasma-calendar-addons)
  * (kde-config-gtk-style) #GTK setup
  * (kde-config-gtk-style-preview) # brings in the gtk libraries
  * (plasma-discover)
