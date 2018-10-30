@@ -8,6 +8,7 @@ ca-certificates
 fonts-dejavu-core
 fonts-freefont-ttf
 fonts-hack-ttf
+fonts-noto-color-emoji
 fonts-noto-hinted
 fonts-symbola
 foomatic-db-compressed-ppds
@@ -24,6 +25,7 @@ ksysguard
 kwin
 kwrited
 libsasl2-modules
+libu2f-udev
 lvm2
 openprinting-ppds
 oxygen-sounds
@@ -35,6 +37,7 @@ qttranslations5-l10n
 rfkill
 sddm-theme-breeze
 software-properties-common
+spice-vdagent
 systemsettings
 ubuntu-drivers-common
 ubuntu-release-upgrader-qt

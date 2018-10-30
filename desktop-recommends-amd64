@@ -16,6 +16,7 @@ desktop-file-utils
 dolphin
 drkonqi-pk-debug-installer
 firefox
+fonts-noto-cjk
 frameworkintegration
 fwupd
 fwupdate
@@ -37,10 +38,14 @@ ksshaskpass
 kwin-addons
 laptop-detect
 libnss-mdns
-libqca2-plugin-ossl
+memtest86+
 milou
 mobile-broadband-provider-info
+neon-adwaita
+neon-apport
+neon-ubuntu-advantage-tools
 okular
+packagekit
 pcmciautils
 phonon-backend-vlc
 phonon4qt5-backend-vlc
@@ -63,6 +68,7 @@ print-manager
 printer-driver-brlaser
 printer-driver-c2esp
 printer-driver-foo2zjs
+printer-driver-m2300w
 printer-driver-min12xxw
 printer-driver-ptouch
 printer-driver-pxljr
@@ -80,4 +86,6 @@ user-manager
 vim
 vlc
 xdg-utils
+xserver-xorg-input-evdev
+xserver-xorg-input-synaptics
 xserver-xorg-video-intel-native-modesetting

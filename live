@@ -28,8 +28,7 @@ Ubiquity needs full filesystem support for the partitioner.
 ## end of live-common
 
  * Languages: en
-# * language-pack-${Languages}
-# * language-pack-kde-${Languages}
+ * language-pack-${Languages}
 
 # subset of English language support which we want by default:
 # * libreoffice-help-en-us [i386 amd64 powerpc]

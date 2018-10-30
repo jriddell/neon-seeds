@@ -1,6 +1,6 @@
 #! /bin/sh
 
-set -x
+set -ex
 
 if [ -z "$OUTPUT_DIRECTORY" ]; then
   OUTPUT_DIRECTORY=$(pwd)
@@ -21,8 +21,10 @@ sed -i '/ttf-.*/d' $OUTPUT_DIRECTORY/desktop-*amd64
 sed -i '/fonts-[^nh].*/d' $OUTPUT_DIRECTORY/desktop-*amd64
 sed -i '/fonts-[^nh]/d' $OUTPUT_DIRECTORY/desktop-*amd64
 sed -i '/kerneloops-daemon/d' $OUTPUT_DIRECTORY/desktop-*amd64
+# kerneloops in 18.04+ is the daemon
+sed -i '/kerneloops/d' $OUTPUT_DIRECTORY/desktop-*amd64
 sed -i '/whoopsie/d' $OUTPUT_DIRECTORY/desktop-*amd64
-sed -i '/apport/d' $OUTPUT_DIRECTORY/desktop-*amd64
+sed -i '/^apport$/d' $OUTPUT_DIRECTORY/desktop-*amd64
 sed -i '/systemd-coredump/d' $OUTPUT_DIRECTORY/desktop-*amd64
 cd $OUTPUT_DIRECTORY
 git checkout debian/changelog

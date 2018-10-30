@@ -12,6 +12,7 @@ ffmpegthumbs
 filelight
 gammaray
 granatier
+heaptrack
 juk
 k3b
 kaccounts-integration
@@ -23,6 +24,7 @@ kamoso
 kanagram
 kapman
 kapptemplate
+kate
 katomic
 kbackup
 kblackbox
@@ -45,6 +47,7 @@ kdesdk-scripts
 kdesdk-thumbnailers
 kdevelop
 kdevelop-php
+kdevelop-python
 kdf
 kdiamond
 kexi
@@ -60,8 +63,10 @@ khelpcenter
 kig
 killbots
 kimagemapeditor
+kio-gdrive
 kiriki
 kiten
+kjots
 kjumpingcube
 klettres
 klickety
@@ -71,6 +76,7 @@ kmines
 kmix
 kmouth
 kmplot
+kmymoney
 knavalbattle
 knetwalk
 kolf
@@ -83,7 +89,7 @@ kopete
 kpat
 krdc
 krfb
-krita
+kronometer
 kruler
 kshisen
 ksirk
@@ -97,14 +103,17 @@ ktuberling
 kturtle
 kwave
 kwordquiz
+labplot
 lokalize
 marble
 massif-visualizer
+minuet
 muon
 okteta
 palapeli
 parley
 partitionmanager
+peruse
 picmi
 poxml
 rocs
