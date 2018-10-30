@@ -157,8 +157,19 @@ Task-Test-new-install: skip show
  * kgraphviewer
  * ktexteditorpreviewplugin
  * kmarkdownwebview
-# * kmymoney
+ * kmymoney
  * kstars
+ * juk
+ * kimagemapeditor
+ * kget
+ * kmix
+ * kmouth
+ * kolf
+ * ksirk
+ * palapeli
+ * sweeper
+ * zeronconf-ioslave
+ * kde-dev-scripts
 
 == Calligra ==
 

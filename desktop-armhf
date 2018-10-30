@@ -5,11 +5,12 @@ baloo-kf5
 bc
 breeze
 ca-certificates
-distro-release-notifier
-docker-neon
+fonts-dejavu-core
+fonts-freefont-ttf
 fonts-hack-ttf
 fonts-noto-color-emoji
 fonts-noto-hinted
+fonts-symbola
 foomatic-db-compressed-ppds
 genisoimage
 ghostscript-x
@@ -26,9 +27,6 @@ kwrited
 libsasl2-modules
 libu2f-udev
 lvm2
-neon-hardware-integration
-neon-keyring
-neon-settings
 openprinting-ppds
 oxygen-sounds
 plasma-desktop
@@ -49,5 +47,4 @@ wpasupplicant
 xdg-user-dirs
 xkb-data
 xorg
-xserver-xorg-video-intel-arbiter
 zip

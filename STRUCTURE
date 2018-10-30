@@ -1,4 +1,4 @@
-include platform.xenial
+include platform.bionic
 desktop: desktop-common
 all: desktop
 live: desktop
