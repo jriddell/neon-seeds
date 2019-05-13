@@ -175,8 +175,12 @@ https://bugs.kde.org/show_bug.cgi?id=397269
 
 Disable oops handling by default. As of kcrash 5.29 oops are automatically forwarded to handlers, which by default would be apport, which we do not want. coredumpd might be handy, but is not used right now https://phabricator.kde.org/T3891
 
-We will thus mangle the output by sedding out the following: kerneloops-daemon, whoopsie, apport, systemd-coredump.
+We will thus mangle the output by sedding out the following: kerneloops-daemon, whoopsie, apport.
 This happens in our ./update script!
+
+As of 2019-05-13 unstable ships with coredumpd to ensure we can easily track down crashers that are much more likely to happen on git master.
+
+ * (systemd-coredump)
 
 == Ubuntu Masking ==
 
