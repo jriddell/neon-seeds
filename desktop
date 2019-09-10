@@ -133,6 +133,7 @@ Fonts:
  * (drkonqi-pk-debug-installer) # Debug installer for drkonqi
  * distro-release-notifier
  * ubuntu-release-upgrader-qt
+ * (appimagelauncher)
 
 == Blacklist ==
 
