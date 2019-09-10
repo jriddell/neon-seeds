@@ -39,7 +39,6 @@ Fonts:
 == Phonon and Frameworks ==
 
  * (pulseaudio)
- * (phonon-backend-vlc)
  * (phonon4qt5-backend-vlc)
  * (frameworkintegration)
  * (kimageformat-plugins)
