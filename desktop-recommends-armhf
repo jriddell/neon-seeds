@@ -14,18 +14,7 @@ curl
 desktop-file-utils
 dolphin
 firefox
-fonts-indic
-fonts-kacst-one
-fonts-khmeros-core
-fonts-lao
-fonts-liberation
-fonts-lklug-sinhala
 fonts-noto-cjk
-fonts-sil-abyssinica
-fonts-sil-padauk
-fonts-thai-tlwg
-fonts-tibetan-machine
-fonts-ubuntu
 frameworkintegration
 fwupd
 fwupdate
@@ -41,7 +30,6 @@ kde-config-sddm
 kde-spectacle
 kdegraphics-thumbnailers
 kdialog
-kerneloops
 kimageformat-plugins
 konsole
 kscreen
