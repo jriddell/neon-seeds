@@ -1,10 +1,6 @@
-#! /bin/sh
+#!/bin/bash
 
 set -ex
-
-if [ -z "$OUTPUT_DIRECTORY" ]; then
-  OUTPUT_DIRECTORY=$(pwd)
-fi
 
 if ! which dch >/dev/null; then
   echo >&2 "please install devscripts"
@@ -16,14 +12,28 @@ if ! which debootstrap >/dev/null; then
   exit 1
 fi
 
+OUTPUT_DIRECTORY=${OUTPUT_DIRECTORY:-$(pwd)}
+# All possible architectures, we'll disqualifies ones without `desktop-$arch`.
+ARCHIES="amd64 armhf arm64"
+
 germinate-update-metapackage --vcs --output-directory $OUTPUT_DIRECTORY
-sed -i '/ttf-.*/d' $OUTPUT_DIRECTORY/desktop-*amd64
-sed -i '/fonts-[^nh].*/d' $OUTPUT_DIRECTORY/desktop-*amd64
-sed -i '/fonts-[^nh]/d' $OUTPUT_DIRECTORY/desktop-*amd64
-sed -i '/kerneloops-daemon/d' $OUTPUT_DIRECTORY/desktop-*amd64
-# kerneloops in 18.04+ is the daemon
-sed -i '/kerneloops/d' $OUTPUT_DIRECTORY/desktop-*amd64
-sed -i '/whoopsie/d' $OUTPUT_DIRECTORY/desktop-*amd64
-sed -i '/^apport$/d' $OUTPUT_DIRECTORY/desktop-*amd64
+
+for arch in $ARCHIES; do
+  # Lest we error because the wildcard didn't match anything. And we need
+  # the arch in there so we don't accidentally mangle .old files.
+  [ ! -f $OUTPUT_DIRECTORY/desktop-$arch ] && continue
+  for file in $(eval echo $OUTPUT_DIRECTORY/desktop-*$arch); do
+    echo "Mangling $file..."
+    sed -i '/ttf-.*/d' $file
+    sed -i '/fonts-[^nh].*/d' $file
+    sed -i '/fonts-[^nh]/d' $file
+    sed -i '/kerneloops-daemon/d' $file
+    # kerneloops in 18.04+ is the daemon
+    sed -i '/kerneloops/d' $file
+    sed -i '/whoopsie/d' $file
+    sed -i '/^apport$/d' $file
+  done
+done
+
 cd $OUTPUT_DIRECTORY
 git checkout debian/changelog
