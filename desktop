@@ -148,13 +148,6 @@ sitter finds that not true, so let's try to keep the bugger out of the system.
  * !genisoimage
 
 
-== Intel Modesetting ==
-
-We use modesetting in neon for intel https://phabricator.kde.org/T3734
-
- * xserver-xorg-video-intel-arbiter # This goes to either or
- * (xserver-xorg-video-intel-native-modesetting) # This is what we force
- * !xserver-xorg-video-intel # Don't want this.
 
 == Oops handling ==
 
