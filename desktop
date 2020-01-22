@@ -143,12 +143,6 @@ libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007
  * !libavcodec*
  * (!fonts-guru)
 
-The platform seed's desktop-common pulls in genisoimage saying it is used by CLI pees.
-sitter finds that not true, so let's try to keep the bugger out of the system.
- * !genisoimage
-
-
-
 == Oops handling ==
 
 Disable oops handling by default. As of kcrash 5.29 oops are automatically forwarded to handlers, which by default would be apport, which we do not want. coredumpd might be handy, but is not used right now https://phabricator.kde.org/T3891
