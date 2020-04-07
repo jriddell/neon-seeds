@@ -1,4 +1,4 @@
-include platform.bionic
+include platform.focal
 desktop: desktop-common
 all: desktop
 live: desktop
