@@ -35,7 +35,6 @@ kcachegrind
 kcalc
 kcharselect
 kcolorchooser
-kcron
 kdebugsettings
 kdeconnect
 kdegraphics-mobipocket
@@ -55,7 +54,6 @@ kfourinline
 kgeography
 kget
 kgpg
-kgraphviewer
 khangman
 khelpcenter
 kig
@@ -63,7 +61,6 @@ killbots
 kimagemapeditor
 kio-gdrive
 kio-perldoc
-kio-stash
 kiriki
 kiten
 kjots
@@ -72,7 +69,6 @@ klettres
 klickety
 klines
 kmahjongg
-kmarkdownwebview
 kmines
 kmix
 kmouth
@@ -87,7 +83,6 @@ konqueror
 kontact
 konversation
 kpat
-kpmcore
 krdc
 krfb
 krita
@@ -99,7 +94,6 @@ ksquares
 kstars
 ksystemlog
 kteatime
-ktexteditorpreviewplugin
 ktimer
 ktouch
 ktuberling
@@ -124,7 +118,6 @@ signon-kwallet-extension
 skanlite
 skrooge
 smb4k
-spectacle
 step
 sweeper
 tellico

@@ -35,7 +35,6 @@ kcachegrind
 kcalc
 kcharselect
 kcolorchooser
-kcron
 kdebugsettings
 kdeconnect
 kdegraphics-mobipocket
@@ -55,13 +54,13 @@ kfourinline
 kgeography
 kget
 kgpg
-kgraphviewer
 khangman
 khelpcenter
 kig
 killbots
 kimagemapeditor
 kio-gdrive
+kio-perldoc
 kiriki
 kiten
 kjots
@@ -118,7 +117,6 @@ signon-kwallet-extension
 skanlite
 skrooge
 smb4k
-spectacle
 step
 sweeper
 tellico

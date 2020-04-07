@@ -1,5 +1,4 @@
 acpi-support
-appimagelauncher
 ark
 avahi-autoipd
 avahi-daemon
@@ -15,13 +14,11 @@ cups-filters
 curl
 desktop-file-utils
 dolphin
-drkonqi-pk-debug-installer
 firefox
 fonts-noto-cjk
 frameworkintegration
 fwupd
-fwupdate
-fwupdate-signed
+fwupd-signed
 grub-theme-breeze
 gwenview
 hplip
@@ -43,9 +40,6 @@ libnss-mdns
 memtest86+
 milou
 mobile-broadband-provider-info
-neon-adwaita
-neon-apport
-neon-ubuntu-advantage-tools
 okular
 packagekit
 pcmciautils
