@@ -1,6 +1,6 @@
 include platform.focal
 desktop: desktop-common
 all: desktop
-live: desktop
+live: desktop live-common
 ship-live: boot live
 desktop-ko: desktop
