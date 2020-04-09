@@ -5,6 +5,7 @@ Task-Extended-Description: This task provides the extra packages installed on th
 Task-Relevance: 2
 Task-Key: neon-live
 Task-Test-new-install: skip show
+Task-Seeds: live-common
 
 == Germinate workarounds ==
 
