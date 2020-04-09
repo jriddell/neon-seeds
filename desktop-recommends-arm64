@@ -17,8 +17,7 @@ firefox
 fonts-noto-cjk
 frameworkintegration
 fwupd
-fwupdate
-fwupdate-signed
+fwupd-signed
 grub-theme-breeze
 gwenview
 hplip
@@ -43,11 +42,14 @@ okular
 packagekit
 pcmciautils
 phonon4qt5-backend-vlc
+plasma-browser-integration
+plasma-calendar-addons
 plasma-dataengines-addons
 plasma-discover
 plasma-nm
 plasma-pa
 plasma-runners-addons
+plasma-thunderbolt
 plasma-vault
 plasma-wallpapers-addons
 plasma-widgets-addons
