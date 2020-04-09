@@ -1,5 +1,6 @@
-exfat-fuse
+dmraid
 jfsutils
+lvm2
 reiserfsprogs
 wamerican
 xfsprogs
