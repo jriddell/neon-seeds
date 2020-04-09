@@ -5,8 +5,6 @@ baloo-kf5
 bc
 breeze
 ca-certificates
-distro-release-notifier
-docker-neon
 fonts-hack-ttf
 fonts-noto-color-emoji
 fonts-noto-hinted
@@ -26,9 +24,6 @@ kwrited
 libsasl2-modules
 libu2f-udev
 lvm2
-neon-hardware-integration
-neon-keyring
-neon-settings
 openprinting-ppds
 oxygen-sounds
 plasma-desktop
