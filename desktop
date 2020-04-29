@@ -143,22 +143,6 @@ libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007
  * !libavcodec*
  * (!fonts-guru)
 
-== Input Drivers ==
-
-We use evdev even on 18.04 where libinput is the platform default. This is
-because our KCMs aren't up to the part. The actual preference switch is carried
-out by neon-settings. We only need to make sure evdev is installed in some form.
-This is only recommends so users can opt to switch to libiniput manually if
-they so choose.
-
- * (xserver-xorg-input-evdev)
-
-Also drag in synaptics. It's also available by default in xenial, alongside
-evdev and its absence seems to cause trouble with certain touchpads
-https://bugs.kde.org/show_bug.cgi?id=397269
-
- * (xserver-xorg-input-synaptics)
-
 == Oops handling ==
 
 Disable oops handling by default. As of kcrash 5.29 oops are automatically forwarded to handlers, which by default would be apport, which we do not want. coredumpd might be handy, but is not used right now https://phabricator.kde.org/T3891
