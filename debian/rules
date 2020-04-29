@@ -1,3 +1,15 @@
 #! /usr/bin/make -f
+
+export DH_VERBOSE=1
+
+override_dh_auto_clean:
+	rm -fv *-amd64 \
+		*-armhf \
+		*-arm64 \
+		*.old \
+		debootstrap-version
+	dh_auto_clean
+
 %:
+	[ "$@" != "build" ] || ./update_in_container # only run for build target
 	dh $@ --with germinate
