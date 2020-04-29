@@ -11,5 +11,9 @@ override_dh_auto_clean:
 	dh_auto_clean
 
 %:
-	[ "$@" != "build" ] || ./update_in_container # only run for build target
+	# only run update during build target. build-arch is used for
+	# bin-only builds (as done on arm platforms)
+	if [ "$@" = "build" ] || [ "$@" = "build-arch" ]; then \
+		./update_in_container; \
+	fi
 	dh $@ --with germinate
