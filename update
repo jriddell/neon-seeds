@@ -37,4 +37,6 @@ for arch in $ARCHIES; do
 done
 
 cd $OUTPUT_DIRECTORY
-git checkout debian/changelog
+if [ -x .git ]; then # this can get run from CI builds which have no .git
+  git checkout debian/changelog
+fi
