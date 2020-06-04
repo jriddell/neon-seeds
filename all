@@ -178,6 +178,7 @@ Task-Test-new-install: skip show
  * kmarkdownwebview
  * kmymoney
  * kstars
+ * kup-backup
 
 == Calligra ==
 
