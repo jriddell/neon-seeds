@@ -20,8 +20,6 @@ firefox
 fonts-noto-cjk
 frameworkintegration
 fwupd
-fwupdate
-fwupdate-signed
 grub-theme-breeze
 gwenview
 hplip
@@ -34,6 +32,7 @@ kde-spectacle
 kdegraphics-thumbnailers
 kdialog
 kimageformat-plugins
+kio-fuse
 konsole
 kscreen
 ksshaskpass

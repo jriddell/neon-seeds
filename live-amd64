@@ -1,9 +1,11 @@
 btrfs-tools
 calamares
 calamares-settings
-exfat-fuse
+dmraid
 jfsutils
 language-pack-en
+lvm2
+mokutil
 reiserfsprogs
 wamerican
 xfsprogs
