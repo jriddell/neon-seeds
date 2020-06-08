@@ -135,6 +135,7 @@ Fonts:
  * distro-release-notifier
  * ubuntu-release-upgrader-qt
  * (appimagelauncher)
+ * (kio-fuse)
 
 == Blacklist ==
 
