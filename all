@@ -128,7 +128,6 @@ Task-Test-new-install: skip show
  * skrooge
  * skanlite
  * kio-gdrive
- * peruse
  * kdevelop-php
  * kdevelop-python
  * smb4k
@@ -142,7 +141,6 @@ Task-Test-new-install: skip show
  * kronometer
  * labplot
  * muon
- * peruse
  * skanlite
  * skrooge
  * gammaray
