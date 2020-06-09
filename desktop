@@ -102,6 +102,7 @@ Fonts:
  * (firefox) # needs GTK fixed up
  * (kdialog)
  * (kdegraphics-thumbnailers)
+ * (kio-fuse)
 
 = Other =
 
