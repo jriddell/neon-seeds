@@ -179,6 +179,7 @@ Task-Test-new-install: skip show
  * zeronconf-ioslave
  * kde-dev-scripts
  * kup-backup
+ * peruse
 
 == Calligra ==
 
