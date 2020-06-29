@@ -6,6 +6,17 @@ Task-Relevance: 2
 Task-Key: neon-live
 Task-Test-new-install: skip show
 Task-Seeds: live-common
+
+## copy&paste of platform.wily live-common
+Calamares needs full filesystem support for the partitioner.
+
+ * xfsprogs
+ * jfsutils
+ * reiserfsprogs
+ * btrfs-tools
+ * ntfs-3g
+ * exfat-fuse
+
 == Germinate workarounds ==
 
  * wamerican  # iamerican Depends: ispell Recommends: wordlist, but wamerican isn't spotted in time so germinate arbitrarily picks miscfiles instead
