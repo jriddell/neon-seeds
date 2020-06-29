@@ -1,6 +1,8 @@
+btrfs-progs
 calamares
 calamares-settings-debian
 dmraid
+exfat-fuse
 jfsutils
 lvm2
 reiserfsprogs
