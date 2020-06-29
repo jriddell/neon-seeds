@@ -164,7 +164,6 @@ Task-Test-new-install: skip show
  * heaptrack
  * isoimagewriter
  * kio-stash
- * kjots
  * kronometer
  * kube
  * labplot
