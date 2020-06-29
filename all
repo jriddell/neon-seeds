@@ -163,6 +163,7 @@ Task-Test-new-install: skip show
  * gammaray
  * heaptrack
  * isoimagewriter
+ * kjots
  * kio-stash
  * kronometer
  * kube
