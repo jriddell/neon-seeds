@@ -157,7 +157,6 @@ Task-Test-new-install: skip show
  * gammaray
  * heaptrack
  * kio-stash
- * kjots
  * kronometer
  * labplot
  * massif-visualizer
