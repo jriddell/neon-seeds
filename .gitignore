@@ -2,4 +2,4 @@ debootstrap-version
 *.old
 *-amd64
 *-armhf
-*-amd64
+*-arm64
