@@ -123,7 +123,7 @@ Fonts:
  * (qml-module-qtgraphicaleffects)
  * xdg-user-dirs
  * sddm-theme-breeze
- * neon-settings
+ * neon-settings-2
  * neon-keyring
  * software-properties-common
  * fonts-noto-hinted # Plasma's default font, we want this!
