@@ -16,6 +16,7 @@ Calamares needs full filesystem support for the partitioner.
  * btrfs-progs
  * ntfs-3g
  * exfat-fuse
+ * f2fs-tools
 
 == Germinate workarounds ==
 
