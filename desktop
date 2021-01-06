@@ -53,6 +53,7 @@ Fonts:
  * kinfocenter
  * kio
  * kio-extras
+ * kio-fuse
  * kmenuedit
  * ksysguard
  * kwin
