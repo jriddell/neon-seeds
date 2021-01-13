@@ -127,6 +127,7 @@ Task-Test-new-install: skip show
  * kde-dev-scripts
  * kbackup
  * kopete
+ * neochat
 
 == kde-extras ==
 
