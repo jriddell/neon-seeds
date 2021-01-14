@@ -138,7 +138,6 @@ Fonts:
  * ubuntu-release-upgrader-qt
  * (appimagelauncher)
  * (libappimage0) # from ubuntu needed by some appimages
- * (kio-fuse)
 
 == Blacklist ==
 
