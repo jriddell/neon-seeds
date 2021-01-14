@@ -137,6 +137,7 @@ Fonts:
  * distro-release-notifier
  * ubuntu-release-upgrader-qt
  * (appimagelauncher)
+ * (libappimage0) # from ubuntu needed by some appimages
 
 == Blacklist ==
 
