@@ -87,6 +87,7 @@ Fonts:
  * (plasma-workspace-wayland)
  * (plasma-browser-integration)
  * (plasma-thunderbolt)
+ * (plasma-disks)
  * (plasma-firewall)
  * (plasma-systemmonitor)
  * (qml-module-org-kde-breeze)
